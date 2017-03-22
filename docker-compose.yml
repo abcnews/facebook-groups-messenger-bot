@@ -1,0 +1,42 @@
+version: '3'
+volumes:
+  certs:
+  vhost:
+  html:
+  cache:
+services:
+  nginx-proxy:
+    image: jwilder/nginx-proxy
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - certs:/etc/nginx/certs:ro
+      - vhost:/etc/nginx/vhost.d
+      - html:/usr/share/nginx/html
+  lets-encrypt:
+    image: jrcs/letsencrypt-nginx-proxy-companion
+    container_name: lets-encrypt
+    volumes:
+      - certs:/etc/nginx/certs:rw
+      - vhost:/etc/nginx/vhost.d
+      - html:/usr/share/nginx/html
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    environment:
+      - NGINX_PROXY_CONTAINER=nginx-proxy
+  newsbot:
+    build: .
+    image: newsbot
+    container_name: newsbot
+    volumes:
+      - cache:/usr/cache
+    environment:
+      - VIRTUAL_HOST=storieswithdata.work
+      - LETSENCRYPT_HOST=storieswithdata.work
+      - LETSENCRYPT_EMAIL=elvery.simon@abc.net.au
+      - NODE_ENV=development
+      - MESSENGER_VALIDATION_TOKEN=${MESSENGER_VALIDATION_TOKEN}
+      - PAGE_ACCESS_TOKEN=${PAGE_ACCESS_TOKEN}
+    
