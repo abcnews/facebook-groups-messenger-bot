@@ -39,4 +39,17 @@ services:
       - NODE_ENV=development
       - MESSENGER_VALIDATION_TOKEN=${MESSENGER_VALIDATION_TOKEN}
       - PAGE_ACCESS_TOKEN=${PAGE_ACCESS_TOKEN}
+  newsbot-prod:
+    build: .
+    image: newsbot
+    container_name: newsbot-prod
+    volumes:
+      - cache:/usr/cache
+    environment:
+      - VIRTUAL_HOST=fbmessenger.abcnewsdigital.com
+      - LETSENCRYPT_HOST=fbmessenger.abcnewsdigital.com
+      - LETSENCRYPT_EMAIL=elvery.simon@abc.net.au
+      - NODE_ENV=development
+      - MESSENGER_VALIDATION_TOKEN=${MESSENGER_VALIDATION_TOKEN}
+      - PAGE_ACCESS_TOKEN=${PAGE_ACCESS_TOKEN}
     
