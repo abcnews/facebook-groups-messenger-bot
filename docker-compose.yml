@@ -49,7 +49,7 @@ services:
       - VIRTUAL_HOST=fbmessenger.abcnewsdigital.com
       - LETSENCRYPT_HOST=fbmessenger.abcnewsdigital.com
       - LETSENCRYPT_EMAIL=elvery.simon@abc.net.au
-      - NODE_ENV=development
+      - NODE_ENV=production
     env_file:
       - credentials.env
     
