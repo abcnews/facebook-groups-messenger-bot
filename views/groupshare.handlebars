@@ -1,2 +1,25 @@
-<h1>{{title }}</h1>
-<p>Welcome to {{title }}</p>
+<header>
+  <form action="groupshare" method="get">
+  	<input type="search" name="search" value="{{search}}" placeholder="Search ABC News articles" />
+  </form>
+</header>
+<div class="main">
+  {{#collections}}
+  	<h2>{{title}}</h2>
+  	{{#if message}}
+  		<p>{{message}}</p>
+  	{{/if}}
+  	<ul>
+  		{{#documents}}
+  			<li data-cmid="{{id}}">
+  				<a href="{{url}}">
+  					{{#if image}}
+  						<img src="{{image}}" />
+  					{{/if}}
+  					{{title}}
+  				</a>
+  			</li>
+  		{{/documents}}
+  	</ul>
+  {{/collections}}
+</div>

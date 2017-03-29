@@ -4,7 +4,10 @@ var router = express.Router();
 /* GET share page. */
 
 router.get('/', function(req, res) {
-  res.render('groupshare', { title: 'Share with your group' });
+  var content = require('../content');
+  content.groupshare([5513552], req.query.search).then(function (content) {
+    res.render('groupshare', content);
+  });
 });
 
 module.exports = router;
