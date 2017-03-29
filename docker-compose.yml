@@ -37,8 +37,8 @@ services:
       - LETSENCRYPT_HOST=storieswithdata.work
       - LETSENCRYPT_EMAIL=elvery.simon@abc.net.au
       - NODE_ENV=development
-      - MESSENGER_VALIDATION_TOKEN=${MESSENGER_VALIDATION_TOKEN}
-      - PAGE_ACCESS_TOKEN=${PAGE_ACCESS_TOKEN}
+    env_file:
+      - credentials.env
   newsbot-prod:
     build: .
     image: newsbot
@@ -50,6 +50,6 @@ services:
       - LETSENCRYPT_HOST=fbmessenger.abcnewsdigital.com
       - LETSENCRYPT_EMAIL=elvery.simon@abc.net.au
       - NODE_ENV=development
-      - MESSENGER_VALIDATION_TOKEN=${MESSENGER_VALIDATION_TOKEN}
-      - PAGE_ACCESS_TOKEN=${PAGE_ACCESS_TOKEN}
+    env_file:
+      - credentials.env
     
