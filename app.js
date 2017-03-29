@@ -7,6 +7,7 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var exphbs  = require('express-handlebars');
+var redis = require('redis');
 
 var app = express();
 
@@ -70,5 +71,9 @@ app.use(function(err, req, res, next) {
     });
 });
 
+// Connect to Redis
+var client = redis.createClient(process.env.REDIS_PORT, process.env.REDIS_HOST);
+
+var content = require('./content');
 
 module.exports = app;
