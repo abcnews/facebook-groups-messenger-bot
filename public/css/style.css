@@ -65,18 +65,23 @@ ul {
     flex-basis: calc(50% - 5px - 5px);
     border-radius: 5px;
     background-color: #ffffff;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.25);
+    font-weight: 600;
     margin: 5px;
     padding: 5px;
-    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.25);
-    line-height: 1.1;
     font-size: 10pt;
-    font-weight: 600; }
+    line-height: 1.1; }
     @media (orientation: landscape) {
       ul li {
         -webkit-flex-basis: calc(25% - 5px - 5px);
         -moz-flex-basis: calc(25% - 5px - 5px);
         -ms-flex-preferred-size: calc(25% - 5px - 5px);
         flex-basis: calc(25% - 5px - 5px); } }
+    @media (min-width: 768px) {
+      ul li {
+        padding: 10px;
+        font-size: 11pt;
+        line-height: 1.3; } }
     ul li a {
       text-decoration: none; }
       ul li a img {
