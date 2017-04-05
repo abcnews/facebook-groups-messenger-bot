@@ -12,16 +12,14 @@ module.exports.document = function (documentId) {
           if (result.docType == 'Article') {
             var doc = {};
             doc.id = result.id;
-            doc.title = result.teaserTitle;
+            doc.teaser_title = result.teaserTitle;
+            doc.short_teaser_title = result.shortTeaserTitle;
+            doc.teaser_text = result.teaserTextPlain;
+            doc.short_teaser_text = result.shortTeaserTextPlain;
             doc.url = result.canonicalUrl;
             doc.image = null;
             if (typeof result.thumbnailLink !== 'undefined') {
-              for (var j=0; j<result.thumbnailLink.media.length; j++) {
-                var image = result.thumbnailLink.media[j].url;
-                if (image.indexOf('16x9-thumbnail') !== -1) {
-                  doc.image = image;
-                }
-              }
+              doc.image = result.thumbnailLink.id
             }
           }
         }
@@ -63,7 +61,9 @@ module.exports.search = function (query) {
               message = 'No stories matched your search. Please try a different search.';
             }
             resolve({title: title, message: message, documents: documents});
-          });
+          }, function () {
+            reject(Error('Individual article request error'));
+        });
         }
         else {
           reject(Error('Search request error'));
@@ -90,16 +90,14 @@ module.exports.collection = function (collectionId) {
             if (results.items[i].docType == 'Article') {
               var doc = {};
               doc.id = results.items[i].id;
-              doc.title = results.items[i].teaserTitle;
+              doc.teaser_title = results.items[i].teaserTitle;
+              doc.short_teaser_title = results.items[i].shortTeaserTitle;
+              doc.teaser_text = results.items[i].teaserTextPlain;
+              doc.short_teaser_text = results.items[i].shortTeaserTextPlain;
               doc.url = results.items[i].canonicalUrl;
               doc.image = null;
               if (typeof results.items[i].thumbnailLink !== 'undefined') {
-                for (var j=0; j<results.items[i].thumbnailLink.media.length; j++) {
-                  var image = results.items[i].thumbnailLink.media[j].url;
-                  if (image.indexOf('16x9-thumbnail') !== -1) {
-                    doc.image = image;
-                  }
-                }
+                doc.image = results.items[i].thumbnailLink.id;
               }
               documents.push(doc);
             }
@@ -131,10 +129,44 @@ module.exports.groupshare = function (collectionIds, search) {
     }
     Promise.all(promises).then(function(collections) {
       resolve({
-        title: 'Share with your group',
+        title: 'Share ABC News story',
         search: search,
         collections: collections
       });
+    }, function () {
+      reject(Error('Error getting content for Group Share page'));
     });
   });
 }
+
+module.exports.image = function (imageId) {
+  return new Promise (function (resolve, reject) {
+    var request = require('request');
+    var fs = require('fs');
+    var filename = '/usr/cache/image_'+imageId+'.jpg';
+    fs.stat(filename, function (err, stats) {
+      var download = false;
+      if (err && err.code === 'ENOENT') { // file doesn't exist
+        download = true;
+      }
+      else if (new Date().getTime() - stats.mtime.getTime() > 1000*60*60*24) { // file too old
+        download = true;
+      }
+      if (download) {
+        request
+          .get('http://www.abc.net.au/cm/rimage/'+encodeURIComponent(imageId)+'-16x9-large.jpg')
+          .on('error', function (err) {
+            reject(Error('Image request error'));
+          })
+          .pipe(fs.createWriteStream(filename))
+          .on('end', function (res) {
+            resolve(filename);
+          });
+      }
+      else {
+        resolve(filename);
+      }
+    });
+  });
+};
+
