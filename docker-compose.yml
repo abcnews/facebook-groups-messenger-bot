@@ -26,26 +26,17 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
     environment:
       - NGINX_PROXY_CONTAINER=nginx-proxy
-  redis:
-    image: redis
-    container_name: redis
-    ports:
-      - "6379:6379"
   newsbot:
     build: .
     image: newsbot
     container_name: newsbot
     volumes:
       - cache:/usr/cache
-    links:
-      - redis
     environment:
       - VIRTUAL_HOST=storieswithdata.work
       - LETSENCRYPT_HOST=storieswithdata.work
       - LETSENCRYPT_EMAIL=elvery.simon@abc.net.au
       - NODE_ENV=development
-      - REDIS_HOST=redis
-      - REDIS_PORT=6379
     env_file:
       - credentials.env
   newsbot-prod:
@@ -54,15 +45,11 @@ services:
     container_name: newsbot-prod
     volumes:
       - cache:/usr/cache
-    links:
-      - redis
     environment:
       - VIRTUAL_HOST=fbmessenger.abcnewsdigital.com
       - LETSENCRYPT_HOST=fbmessenger.abcnewsdigital.com
       - LETSENCRYPT_EMAIL=elvery.simon@abc.net.au
       - NODE_ENV=production
-      - REDIS_HOST=redis
-      - REDIS_PORT=6379
     env_file:
       - credentials.env
-    
+
