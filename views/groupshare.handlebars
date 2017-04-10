@@ -44,41 +44,53 @@
       var story_teaser_text = el.getAttribute('data-teaser-text');
       var story_short_teaser_text = el.getAttribute('data-short-teaser-text');
       var story_image = el.getAttribute('data-image') || null;
+
+      var method = 'broadcast';
+
+      MessengerExtensions.getSupportedFeatures(function success(result) {
+        if (result.supported_features.sharing_direct) {
+          method = 'current_thread';
+        }
+
+        // TODO: Test here for all required features and fail the whole thing if necessary.
+      }, function error(err) {
+        // TODO: Fail the whole thing
+      });
+
       MessengerExtensions.beginShareFlow(
-        function success() {
-          // Share successful
+        function success(response) {
+          if (response.is_sent) {
+            MessengerExtensions.requestCloseBrowser();
+          }
         },
         function error(errorCode, errorMessage) {
-          // The user was not able to share
+          // TODO: How to notify the user of a failure at this point?
         },
         {
-          "type":"template",
-          "payload":{
-            "template_type":"generic",
-            "elements":{
-              "title":story_short_teaser_title,
-              "image_url":story_image,
-              "subtitle":story_short_teaser_text,
-              "default_action":{
-                "type":"web_url",
-                "url":story_url
-              },
-              "buttons":[
-                {
+          attachment: {
+            "type":"template",
+            "payload":{
+              "template_type":"generic",
+              "elements":[{
+                "title":story_short_teaser_title,
+                "image_url":story_image,
+                "subtitle":story_short_teaser_text,
+                "default_action":{
                   "type":"web_url",
-                  "url":story_url,
-                  "title":"Read the story"
+                  "url":story_url
                 },
-                {
-                  "type":"web_url",
-                  "url":"https://m.me/abcnews.au",
-                  "title":"ABC News on Messenger"
-                }
-              ]
+                "buttons":[
+                  {
+                    "type":"web_url",
+                    "url":story_url,
+                    "title":"Read the story"
+                  }
+                ]
+              }]
             }
           }
         },
-        "current_thread"
+        method
       );
     });
   });
