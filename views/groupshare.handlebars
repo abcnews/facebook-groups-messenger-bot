@@ -21,9 +21,9 @@
   	<ul>
   		{{#documents}}
   			<li>
-  				<a href="{{url}}" data-id="{{id}}" data-url="{{url}}" data-teaser-title="{{teaser_title}}" data-short-teaser-title="{{short_teaser_title}}" data-teaser-text="{{teaser_text}}" data-short-teaser-text="{{short_teaser_text}}" data-image="{{#if image}}https://fbmessenger.abcnewsdigital.com/groupshare/image/{{image}}{{/if}}">
+  				<a href="{{url}}" data-id="{{id}}" data-url="{{url}}" data-teaser-title="{{teaser_title}}" data-short-teaser-title="{{short_teaser_title}}" data-teaser-text="{{teaser_text}}" data-short-teaser-text="{{short_teaser_text}}" data-image="{{image}}">
   					{{#if image}}
-  						<img src="/groupshare/image/{{image}}" />
+  						<img src="{{image}}" />
   					{{/if}}
   					{{teaser_title}}
   				</a>

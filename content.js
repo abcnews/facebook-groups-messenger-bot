@@ -1,3 +1,5 @@
+const imageUrl = require('./lib/image-url');
+
 module.exports.document = function (documentId) {
   return new Promise (function (resolve, reject) {
     var request = require('request');
@@ -19,7 +21,7 @@ module.exports.document = function (documentId) {
             doc.url = result.canonicalUrl;
             doc.image = null;
             if (typeof result.thumbnailLink !== 'undefined') {
-              doc.image = result.thumbnailLink.id
+              doc.image = imageUrl(`http://www.abc.net.au/cm/rimage/${result.thumbnailLink.id}-16x9-large.jpg?v=2`);
             }
           }
         }
@@ -97,7 +99,7 @@ module.exports.collection = function (collectionId) {
               doc.url = results.items[i].canonicalUrl;
               doc.image = null;
               if (typeof results.items[i].thumbnailLink !== 'undefined') {
-                doc.image = results.items[i].thumbnailLink.id;
+                doc.image = imageUrl(`http://www.abc.net.au/cm/rimage/${results.items[i].thumbnailLink.id}-16x9-large.jpg?v=2`);
               }
               documents.push(doc);
             }
@@ -138,35 +140,3 @@ module.exports.groupshare = function (collectionIds, search) {
     });
   });
 }
-
-module.exports.image = function (imageId) {
-  return new Promise (function (resolve, reject) {
-    var request = require('request');
-    var fs = require('fs');
-    var filename = '/usr/cache/image_'+imageId+'.jpg';
-    fs.stat(filename, function (err, stats) {
-      var download = false;
-      if (err && err.code === 'ENOENT') { // file doesn't exist
-        download = true;
-      }
-      else if (new Date().getTime() - stats.mtime.getTime() > 1000*60*60*24) { // file too old
-        download = true;
-      }
-      if (download) {
-        request
-          .get('http://www.abc.net.au/cm/rimage/'+encodeURIComponent(imageId)+'-16x9-large.jpg')
-          .on('error', function (err) {
-            reject(Error('Image request error'));
-          })
-          .pipe(fs.createWriteStream(filename))
-          .on('end', function (res) {
-            resolve(filename);
-          });
-      }
-      else {
-        resolve(filename);
-      }
-    });
-  });
-};
-

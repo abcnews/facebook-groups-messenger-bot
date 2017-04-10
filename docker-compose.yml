@@ -26,17 +26,13 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
     environment:
       - NGINX_PROXY_CONTAINER=nginx-proxy
-  newsbot:
-    build: .
-    image: newsbot
-    container_name: newsbot
-    volumes:
-      - cache:/usr/cache
+  camo:
+    image: inventid/camo
+    container_name: camo
     environment:
-      - VIRTUAL_HOST=storieswithdata.work
-      - LETSENCRYPT_HOST=storieswithdata.work
+      - VIRTUAL_HOST=imgs.abcnewsdigital.com
+      - LETSENCRYPT_HOST=imgs.abcnewsdigital.com
       - LETSENCRYPT_EMAIL=elvery.simon@abc.net.au
-      - NODE_ENV=development
     env_file:
       - credentials.env
   newsbot-prod:
@@ -52,4 +48,3 @@ services:
       - NODE_ENV=production
     env_file:
       - credentials.env
-
