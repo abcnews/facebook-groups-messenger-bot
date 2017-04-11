@@ -31,6 +31,21 @@
   {{/collections}}
 </div>
 <script>
+
+  var shareMethod = 'broadcast';
+
+  window.extAsyncInit = function() {
+    MessengerExtensions.getSupportedFeatures(function success(result) {
+      if (result.supported_features.indexOf('sharing_direct') > -1) {
+        shareMethod = 'current_thread';
+      }
+
+      // TODO: Test here for all required features and fail the whole thing if necessary.
+    }, function error(err) {
+      // TODO: Fail the whole thing
+    });
+  }
+
   Array.prototype.forEach.call(document.querySelectorAll('a'), function(el, i){
     el.addEventListener('click', function (event) {
       event.preventDefault();
@@ -43,18 +58,9 @@
       var story_short_teaser_text = el.getAttribute('data-short-teaser-text');
       var story_image = el.getAttribute('data-image') || null;
 
-      var method = 'broadcast';
 
-      MessengerExtensions.getSupportedFeatures(function success(result) {
-        if (result.supported_features.sharing_direct) {
-          method = 'current_thread';
-        }
 
-        // TODO: Test here for all required features and fail the whole thing if necessary.
-      }, function error(err) {
-        // TODO: Fail the whole thing
-      });
-
+      // TODO: Should check if MessengerExtensions has loaded yet.
       MessengerExtensions.beginShareFlow(
         function success(response) {
           if (response.is_sent) {
@@ -88,7 +94,7 @@
             }
           }
         },
-        method
+        shareMethod
       );
     });
   });
