@@ -1,101 +1,26 @@
-<script>
-(function(d, s, id){
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) {return;}
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.com/en_US/messenger.Extensions.js";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'Messenger'));
-</script>
+{{>facebook-extensions}}
+
 <header>
   <form action="groupshare" method="get">
     <input type="search" name="search" value="{{search}}" placeholder="Search ABC News articles" />
   </form>
 </header>
+
 <div class="main">
   {{#collections}}
-    <h2>{{title}}</h2>
-    {{#if message}}
-      <p>{{message}}</p>
-    {{/if}}
-    <ul>
-      {{#documents}}
-        <li>
-          <a href="{{url}}" data-id="{{id}}" data-url="{{url}}" data-teaser-title="{{teaser_title}}" data-short-teaser-title="{{short_teaser_title}}" data-teaser-text="{{teaser_text}}" data-short-teaser-text="{{short_teaser_text}}" data-image="{{image_url}}">
-            <img src="{{image_url_proxy}}" />
-            {{teaser_title}}
-          </a>
-        </li>
-      {{/documents}}
-    </ul>
+  <h2>{{title}}</h2>
+  {{#if message}}<p>{{message}}</p>{{/if}}
+  <ul>
+    {{#documents}}
+    <li>
+      <a href="{{url}}" data-short-teaser-title="{{short_teaser_title}}" data-short-teaser-text="{{short_teaser_text}}" data-image="{{image_url}}">
+        <img src="{{image_url_proxy}}" />
+        {{teaser_title}}
+      </a>
+    </li>
+    {{/documents}}
+  </ul>
   {{/collections}}
 </div>
-<script>
 
-  var shareMethod = 'broadcast';
-
-  window.extAsyncInit = function() {
-    MessengerExtensions.getSupportedFeatures(function success(result) {
-      if (result.supported_features.indexOf('sharing_direct') > -1) {
-        shareMethod = 'current_thread';
-      }
-
-      // TODO: Test here for all required features and fail the whole thing if necessary.
-    }, function error(err) {
-      // TODO: Fail the whole thing
-    });
-  }
-
-  Array.prototype.forEach.call(document.querySelectorAll('a'), function(el, i){
-    el.addEventListener('click', function (event) {
-      event.preventDefault();
-      event.stopPropagation();
-      var story_id = el.getAttribute('data-id');
-      var story_url = el.getAttribute('data-url');
-      var story_teaser_title = el.getAttribute('data-teaser-title');
-      var story_short_teaser_title = el.getAttribute('data-short-teaser-title');
-      var story_teaser_text = el.getAttribute('data-teaser-text');
-      var story_short_teaser_text = el.getAttribute('data-short-teaser-text');
-      var story_image = el.getAttribute('data-image') || null;
-
-
-
-      // TODO: Should check if MessengerExtensions has loaded yet.
-      MessengerExtensions.beginShareFlow(
-        function success(response) {
-          if (response.is_sent) {
-            MessengerExtensions.requestCloseBrowser();
-          }
-        },
-        function error(errorCode, errorMessage) {
-          // TODO: How to notify the user of a failure at this point?
-        },
-        {
-          attachment: {
-            "type":"template",
-            "payload":{
-              "template_type":"generic",
-              "elements":[{
-                "title":story_short_teaser_title,
-                "image_url":story_image,
-                "subtitle":story_short_teaser_text,
-                "default_action":{
-                  "type":"web_url",
-                  "url":story_url
-                },
-                "buttons":[
-                  {
-                    "type":"web_url",
-                    "url":story_url,
-                    "title":"Read the story"
-                  }
-                ]
-              }]
-            }
-          }
-        },
-        shareMethod
-      );
-    });
-  });
-</script>
+<script src="/js/index.js" type="text/javascript"></script>
