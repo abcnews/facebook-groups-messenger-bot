@@ -1,5 +1,5 @@
 node_modules/
-public/components
+public/
 .nyc_output
 .sass-cache
 credentials.env
