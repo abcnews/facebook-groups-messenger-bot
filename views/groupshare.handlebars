@@ -9,25 +9,25 @@
 </script>
 <header>
   <form action="groupshare" method="get">
-  	<input type="search" name="search" value="{{search}}" placeholder="Search ABC News articles" />
+    <input type="search" name="search" value="{{search}}" placeholder="Search ABC News articles" />
   </form>
 </header>
 <div class="main">
   {{#collections}}
-  	<h2>{{title}}</h2>
-  	{{#if message}}
-  		<p>{{message}}</p>
-  	{{/if}}
-  	<ul>
-  		{{#documents}}
-  			<li>
-				<a href="{{url}}" data-id="{{id}}" data-url="{{url}}" data-teaser-title="{{teaser_title}}" data-short-teaser-title="{{short_teaser_title}}" data-teaser-text="{{teaser_text}}" data-short-teaser-text="{{short_teaser_text}}" data-image="{{image_url}}">
-				<img src="{{image_url_proxy}}" />
-				{{teaser_title}}
-  				</a>
-  			</li>
-  		{{/documents}}
-  	</ul>
+    <h2>{{title}}</h2>
+    {{#if message}}
+      <p>{{message}}</p>
+    {{/if}}
+    <ul>
+      {{#documents}}
+        <li>
+          <a href="{{url}}" data-id="{{id}}" data-url="{{url}}" data-teaser-title="{{teaser_title}}" data-short-teaser-title="{{short_teaser_title}}" data-teaser-text="{{teaser_text}}" data-short-teaser-text="{{short_teaser_text}}" data-image="{{image_url}}">
+            <img src="{{image_url_proxy}}" />
+            {{teaser_title}}
+          </a>
+        </li>
+      {{/documents}}
+    </ul>
   {{/collections}}
 </div>
 <script>
