@@ -19,10 +19,9 @@ module.exports.document = function (documentId) {
             doc.teaser_text = result.teaserTextPlain;
             doc.short_teaser_text = result.shortTeaserTextPlain;
             doc.url = result.canonicalUrl;
-            doc.image = null;
-            if (typeof result.thumbnailLink !== 'undefined') {
-              doc.image = imageUrl(`http://www.abc.net.au/cm/rimage/${result.thumbnailLink.id}-16x9-large.jpg?v=2`);
-            }
+            doc.image_id = (result.thumbnailLink) ? result.thumbnailLink.id : '8394058';
+            doc.image_url = `http://www.abc.net.au/cm/rimage/${doc.image_id}-16x9-large.jpg?v=2`;
+            doc.image_url_proxy = imageUrl(doc.image_url);
           }
         }
         if (doc) {
@@ -97,10 +96,11 @@ module.exports.collection = function (collectionId) {
               doc.teaser_text = results.items[i].teaserTextPlain;
               doc.short_teaser_text = results.items[i].shortTeaserTextPlain;
               doc.url = results.items[i].canonicalUrl;
-              doc.image = null;
-              if (typeof results.items[i].thumbnailLink !== 'undefined') {
-                doc.image = imageUrl(`http://www.abc.net.au/cm/rimage/${results.items[i].thumbnailLink.id}-16x9-large.jpg?v=2`);
-              }
+
+              doc.image_id = (result.items[i].thumbnailLink) ? result.items[i].thumbnailLink.id : '8394058';
+              doc.image_url = `http://www.abc.net.au/cm/rimage/${doc.image_id}-16x9-large.jpg?v=2`;
+              doc.image_url_proxy = imageUrl(doc.image_url);
+
               documents.push(doc);
             }
           }
