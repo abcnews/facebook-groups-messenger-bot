@@ -96,8 +96,7 @@ module.exports.collection = function (collectionId) {
               doc.teaser_text = results.items[i].teaserTextPlain;
               doc.short_teaser_text = results.items[i].shortTeaserTextPlain;
               doc.url = results.items[i].canonicalUrl;
-
-              doc.image_id = (result.items[i].thumbnailLink) ? result.items[i].thumbnailLink.id : '8394058';
+              doc.image_id = (results.items[i].thumbnailLink) ? results.items[i].thumbnailLink.id : '8394058';
               doc.image_url = `http://www.abc.net.au/cm/rimage/${doc.image_id}-16x9-large.jpg?v=2`;
               doc.image_url_proxy = imageUrl(doc.image_url);
 
