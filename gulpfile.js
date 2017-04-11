@@ -56,9 +56,13 @@ gulp.task('develop', function () {
   });
 });
 
-gulp.task('default', [
+gulp.task('build', [
   'sass',
-  'js',
+  'js'
+])
+
+gulp.task('default', [
+  'build',
   'develop',
   'watch'
 ]);

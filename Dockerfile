@@ -11,6 +11,8 @@ RUN npm install
 # Bundle app source
 COPY . /usr/src/app
 
+RUN node_modules/gulp/bin/gulp.js build
+
 EXPOSE 3000
 
 CMD [ "npm", "start" ]
