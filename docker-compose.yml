@@ -3,7 +3,6 @@ volumes:
   certs:
   vhost:
   html:
-  cache:
 services:
   nginx-proxy:
     image: jwilder/nginx-proxy
@@ -42,8 +41,6 @@ services:
     build: .
     image: newsbot
     container_name: newsbot-prod
-    volumes:
-      - cache:/usr/cache
     environment:
       - VIRTUAL_HOST=fbmessenger.abcnewsdigital.com
       - LETSENCRYPT_HOST=fbmessenger.abcnewsdigital.com
