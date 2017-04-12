@@ -36,7 +36,7 @@ function handleClick (event) {
         elements: [{
           title: dataset.shortTeaserTitle,
           image_url: dataset.image,
-          subtitle: dataset.shortTeaserText,
+          subtitle: dataset.shortTeaserTextPlain,
           default_action: {
             type: "web_url",
             url: event.target.getAttribute('href')
