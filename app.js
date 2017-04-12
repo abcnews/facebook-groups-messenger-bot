@@ -18,7 +18,10 @@ app.locals.ENV_DEVELOPMENT = env == 'development';
 
 app.engine('handlebars', exphbs({
   defaultLayout: 'main',
-  partialsDir: ['views/partials/']
+  partialsDir: ['views/partials/'],
+  helpers: {
+    checksum: require('./lib/checksumify')
+  }
 }));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'handlebars');
@@ -28,9 +31,11 @@ app.use(logger('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
   extended: true
+// Static assets
+app.use(express.static(path.join(__dirname, 'public'),{
+  maxAge: 2628000000 // one week
 }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', require('./routes/index'));
 app.use('/groupshare', require('./routes/groupshare'));
