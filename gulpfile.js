@@ -9,8 +9,6 @@ const buffer = require('vinyl-buffer');
 const gutil = require('gulp-util');
 const uglify = require('gulp-uglify');
 
-
-
 gulp.task('sass', function () {
   gulp.src('./public_src/css/*.scss')
     .pipe(plumber())
@@ -18,6 +16,10 @@ gulp.task('sass', function () {
     .pipe(gulp.dest('./public/css'))
     .pipe(livereload());
 });
+
+gulp.task('copy', function() {
+  gulp.src('./public_src/*.*').pipe(gulp.dest('./public/'));
+})
 
 gulp.task('js', function () {
   var b = browserify({
@@ -57,6 +59,7 @@ gulp.task('develop', function () {
 });
 
 gulp.task('build', [
+  'copy',
   'sass',
   'js'
 ])
