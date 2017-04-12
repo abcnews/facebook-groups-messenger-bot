@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res) {
-  res.redirect(302, '/groupshare');
+  res.render('index');
 });
 
 module.exports = router;
