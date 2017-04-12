@@ -16,6 +16,7 @@ services:
       - certs:/etc/nginx/certs:ro
       - vhost:/etc/nginx/vhost.d
       - html:/usr/share/nginx/html
+    restart: unless-stopped
   lets-encrypt:
     image: jrcs/letsencrypt-nginx-proxy-companion
     container_name: lets-encrypt
@@ -26,6 +27,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock:ro
     environment:
       - NGINX_PROXY_CONTAINER=nginx-proxy
+    restart: unless-stopped
   camo:
     image: inventid/camo
     container_name: camo
@@ -35,6 +37,7 @@ services:
       - LETSENCRYPT_EMAIL=elvery.simon@abc.net.au
     env_file:
       - credentials.env
+    restart: unless-stopped
   newsbot-prod:
     build: .
     image: newsbot
@@ -48,3 +51,4 @@ services:
       - NODE_ENV=production
     env_file:
       - credentials.env
+    restart: unless-stopped
