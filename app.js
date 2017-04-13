@@ -2,6 +2,7 @@ const express = require('express');
 const path = require('path');
 const logger = require('morgan');
 const exphbs  = require('express-handlebars');
+const apicache = require('apicache');
 
 const app = express();
 
@@ -23,6 +24,10 @@ app.engine('handlebars', exphbs({
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'handlebars');
 
+// Cache responses
+app.use(apicache.middleware('5 minutes', (req, res) => res.statusCode === 200 || res.statusCode === 304));
+
+// Log some stuff
 app.use(logger('dev'));
 
 // Static assets
