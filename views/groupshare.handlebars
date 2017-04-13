@@ -2,7 +2,7 @@
 
 <header>
   <form action="groupshare" method="get">
-    <input type="search" name="search" value="{{search}}" placeholder="Search ABC News articles" />
+    <input type="search" name="search" value="{{search}}" placeholder="Search for News" />
   </form>
 </header>
 
@@ -13,7 +13,7 @@
   <ul>
     {{#documents}}
     <li>
-      <a href="{{canonicalUrl}}" data-short-teaser-title="{{shortTeaserTitle}}" data-short-teaser-text-plain="{{shortTeaserTextPlain}}" data-image="{{imageUrl}}">
+      <a href="{{canonicalUrl}}" data-short-teaser-title="{{shortTeaserTitle}}" data-short-teaser-text="{{shortTeaserTextPlain}}" data-image="{{imageUrl}}">
         <img src="{{imageProxyUrl}}" />
         {{teaserTitle}}
       </a>

@@ -15,14 +15,16 @@ router.get('/', function(req, res) {
 
   Promise.all(promises).then(function(collections) {
     res.render('groupshare', {
-      title: 'Share ABC News story',
+      title: 'Share ABC News',
       search: req.query.search,
       collections: collections
     });
   }, function (err) {
     res.status(500).render('error', {
       title: 'Error',
-      message: 'Sorry, something went wrong, please <a href="/groupshare">try your request again</a>.'
+      message: (process.env.NODE_ENV === 'development')
+       ? 'Sorry, something unexpectedly went wrong. Please <a href="/groupshare">try your request again</a>.'
+       : err.message
     });
   });
 });

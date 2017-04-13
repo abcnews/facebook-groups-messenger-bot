@@ -15,8 +15,8 @@ MessengerExtensionsPromise.then(function(MessengerExtensions) {
     if (result.supported_features.indexOf('sharing_direct') > -1) {
       shareMethod = 'current_thread';
     }
-    // TODO: Do we need to handle this error better?
-  }, err => console.log(err));
+    // TODO: Redirect to app upgrade prompt
+  }, (err, msg) => console.error(err, msg));
 });
 
 Array.prototype.forEach.call(document.querySelectorAll('a'), el => el.addEventListener('click', handleClick));
@@ -47,6 +47,13 @@ function handleClick (event) {
               url: event.target.getAttribute('href'),
               title: "Read the story"
             }
+            // {
+            //   type: "web_url",
+            //   url: "https://fbmessenger.abcnewsdigital.com/groupshare",
+            //   title: "Share another story",
+            //   webview_height_ratio: "full",
+            //   messenger_extensions: true
+            // }
           ]
         }]
       }
@@ -62,6 +69,7 @@ function handleClick (event) {
       },
       function error(errorCode, errorMessage) {
         // TODO: How to notify the user of a failure at this point?
+        console.error(errorCode, errorMessage);
       },
       payload,
       shareMethod

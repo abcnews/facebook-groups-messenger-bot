@@ -15,6 +15,7 @@
     "apicache": "^0.8.4",
     "camo-url": "^0.2.0",
     "checksum": "^0.1.1",
+    "debug": "^2.6.3",
     "express": "^4.13.3",
     "express-handlebars": "^3.0.0",
     "morgan": "^1.6.1",
