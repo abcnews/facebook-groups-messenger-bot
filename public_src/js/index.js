@@ -27,7 +27,7 @@ function handleClick (event) {
   event.preventDefault();
   event.stopPropagation();
 
-  let dataset = event.target.dataset;
+  let dataset = event.currentTarget.dataset;
   let payload = {
     attachment: {
       type:"template",
