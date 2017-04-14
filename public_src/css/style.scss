@@ -1,6 +1,6 @@
 @import '_flex';
 @mixin landscape {
-  @media (orientation: landscape) {
+  @media (min-width: 550px) {
     @content;
   }
 }
