@@ -39,12 +39,12 @@ function handleClick (event) {
           subtitle: dataset.shortTeaserText,
           default_action: {
             type: "web_url",
-            url: event.target.getAttribute('href')
+            url: event.currentTarget.getAttribute('href')
           },
           buttons: [
             {
               type: "web_url",
-              url: event.target.getAttribute('href'),
+              url: event.currentTarget.getAttribute('href'),
               title: "Read the story"
             }
             // {
