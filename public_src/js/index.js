@@ -63,7 +63,7 @@ function handleClick (event) {
   MessengerExtensionsPromise.then(function(MessengerExtensions) {
     MessengerExtensions.beginShareFlow(
       function success(response) {
-        if (response.is_sent) {
+        if (response.is_sent === true || response.is_sent === 'true' /* Facebook bug */)  {
           MessengerExtensions.requestCloseBrowser();
         }
       },
