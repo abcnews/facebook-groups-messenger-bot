@@ -1,5 +1,6 @@
-<div class="main">
+<div class="main error">
+  <img alt="Woman with arms crossed." src="/img/crossedArms@2x.png" />
+  <h1>{{ error.status }}</h1>
   <p>{{{ message }}}</p>
-  {{ error.status }}
-  {{ error.stack }}
+  {{#if error.stack }}<div class="stack">{{ error.stack }}</div>{{/if}}
 </div>

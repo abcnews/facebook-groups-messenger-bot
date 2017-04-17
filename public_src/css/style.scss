@@ -83,7 +83,7 @@ ul {
   }
 }
 
-.fallback {
+.error {
   text-align: center;
   p {
     font-size: 18px;
@@ -98,4 +98,9 @@ ul {
   h1 {
     font-size: 20px;
   }
+}
+
+.stack {
+  text-align: left;
+  margin-top: 30px;
 }
