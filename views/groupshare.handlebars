@@ -14,8 +14,11 @@
     {{#documents}}
     <li>
       <a href="{{canonicalUrl}}" data-short-teaser-title="{{shortTeaserTitle}}" data-short-teaser-text="{{shortTeaserTextPlain}}" data-image="{{imageUrl}}">
-        <img src="{{imageProxyUrl}}" />
-        {{teaserTitle}}
+        <div>
+          <img src="{{imageProxyUrl}}" />
+          <p>{{teaserTitle}}</p>
+        </div>
+        <button><img src="/img/ic_send_lg_white@3x.png" width="20" height="20"/> Send</button>
       </a>
     </li>
     {{/documents}}
