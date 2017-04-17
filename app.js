@@ -3,6 +3,7 @@ const path = require('path');
 const logger = require('morgan');
 const exphbs  = require('express-handlebars');
 const apicache = require('apicache');
+const log = require('./lib/log');
 
 const app = express();
 
@@ -47,31 +48,15 @@ app.use(function(req, res, next) {
   next(err);
 });
 
-/// error handlers
-
-// development error handler
-// will print stacktrace
-
-if (app.get('env') === 'development') {
-  app.use(function(err, req, res, next) {
-    res.status(err.status || 500);
-    res.render('error', {
-      message: err.message,
-      error: err,
-      title: 'error'
-    });
-  });
-}
-
-// production error handler
-// no stacktraces leaked to user
+// error handlers
 app.use(function(err, req, res, next) {
-    res.status(err.status || 500);
-    res.render('error', {
-        message: err.message,
-        error: {},
-        title: 'error'
-    });
+  res.status(err.status || 500);
+  res.render('error', {
+    message: err.message,
+    error: (app.get('env') === 'development') ? err : {}, // Don't leak stack traces to user
+    title: 'error'
+  });
+  log.error(err.message, {error: err});
 });
 
 module.exports = app;
