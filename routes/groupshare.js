@@ -1,7 +1,10 @@
 const express = require('express');
 const router = express.Router();
 const content = require('../lib/content');
-const collections = [8418312]; // dynamic collection based on top stories
+
+// 1. dynamic collection based on top stories
+// 2. dynamic collection based on quiz sidebar
+const collections = [8418312,8447910];
 
 router.get('/', function(req, res) {
 
