@@ -67,6 +67,7 @@ ul {
     margin: 5px;
     padding: 5px;
     font-size: 10pt;
+    display: flex;
     line-height: 1.1;
     @include desktop {
       padding: 10px;
@@ -75,10 +76,10 @@ ul {
     }
     a {
       text-decoration: none;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      height: 100%;
+      @include flexbox;
+      @include flex-direction(column);
+      @include justify-content(space-between);
+
       > div img {
         width: 100%;
         height: auto;
@@ -99,6 +100,7 @@ ul {
         border: none;
         border-radius: 5px;
         font-weight: 400;
+        cursor: pointer;
         img {
           display: inline;
           vertical-align: sub;
