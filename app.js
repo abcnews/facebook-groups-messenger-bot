@@ -54,7 +54,7 @@ app.use(function(err, req, res, next) {
   res.render('error', {
     message: err.message,
     error: (app.get('env') === 'development') ? err : {}, // Don't leak stack traces to user
-    title: 'error'
+    title: 'Error'
   });
   log.error(err.message, {error: err});
 });

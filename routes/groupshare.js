@@ -6,7 +6,7 @@ const content = require('../lib/content');
 // 2. dynamic collection based on quiz sidebar
 const collections = [8418312,8447910];
 
-router.get('/', function(req, res) {
+router.get('/', function(req, res, next) {
 
   let promises = collections.map(function(id) {
     return content.collection(id);
@@ -23,12 +23,7 @@ router.get('/', function(req, res) {
       collections: collections
     });
   }, function (err) {
-    res.status(500).render('error', {
-      title: 'Error',
-      message: (process.env.NODE_ENV === 'development')
-       ? 'Sorry, something unexpectedly went wrong. Please <a href="/groupshare">try your request again</a>.'
-       : err.message
-    });
+    next((process.env.NODE_ENV === 'development') ? err : new Error('Sorry, something unexpectedly went wrong. Please <a href="/groupshare">try your request again</a>.'));
   });
 });
 
