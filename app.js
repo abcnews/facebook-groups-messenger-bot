@@ -25,7 +25,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'handlebars');
 
 // Cache responses
-app.use(apicache.middleware('5 minutes', (req, res) => res.statusCode === 200 || res.statusCode === 304));
+app.use(apicache.middleware('5 minutes', (req, res) => (res.statusCode === 200 || res.statusCode === 304) && env === 'production'));
 
 // Log some stuff
 app.use(logger('dev'));
@@ -38,6 +38,7 @@ app.use(express.static(path.join(__dirname, 'public'),{
 // Routes
 app.use('/', require('./routes/index'));
 app.use('/groupshare', require('./routes/groupshare'));
+app.use('/fallback', require('./routes/fallback'));
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {

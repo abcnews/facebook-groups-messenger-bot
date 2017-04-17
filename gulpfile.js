@@ -19,6 +19,8 @@ gulp.task('sass', function () {
 
 gulp.task('copy', function() {
   gulp.src('./public_src/*.*').pipe(gulp.dest('./public/'));
+  gulp.src('./public_src/img/*.*').pipe(gulp.dest('./public/img/'));
+
 })
 
 gulp.task('js', function () {
