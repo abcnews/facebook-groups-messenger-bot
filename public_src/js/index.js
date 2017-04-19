@@ -2,6 +2,15 @@
 // Default share method is broadcast. Change to current_thread when we know we can.
 let shareMethod = 'broadcast';
 
+// Logging
+let log = window._LTracker = window._LTracker || [];
+log.push({
+  logglyKey: process.env.LOGGLY_KEY,
+  sendConsoleErrors: true,
+  tag: 'facebook-groupshare'
+});
+
+
 // A promise for the loaded messenger extensions
 let MessengerExtensionsPromise = new Promise(function(resolve, reject) {
   window.extAsyncInit = function() {
@@ -52,7 +61,8 @@ function handleClick (event) {
             //   url: "https://fbmessenger.abcnewsdigital.com/groupshare",
             //   title: "Share another story",
             //   webview_height_ratio: "full",
-            //   messenger_extensions: true
+            //   messenger_extensions: true,
+            //   fallback_url: "https://fbmessenger.abcnewsdigital.com/fallback"
             // }
           ]
         }]
@@ -64,12 +74,21 @@ function handleClick (event) {
     MessengerExtensions.beginShareFlow(
       function success(response) {
         if (response.is_sent === true || response.is_sent === 'true' /* Facebook bug */)  {
+          log.push({
+            message: 'Successful share',
+            url: event.currentTarget.getAttribute('href'),
+            title: dataset.shortTeaserTitle,
+            method: shareMethod
+          });
           MessengerExtensions.requestCloseBrowser();
         }
       },
       function error(errorCode, errorMessage) {
         // TODO: How to notify the user of a failure at this point?
-        console.error(errorCode, errorMessage);
+        log.push({
+          code: errorCode,
+          message: errorMessage
+        });
       },
       payload,
       shareMethod

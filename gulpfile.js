@@ -27,7 +27,7 @@ gulp.task('js', function () {
   var b = browserify({
     entries: './public_src/js/index.js',
     debug: true,
-    transform: [['babelify', {presets: ['es2015']}]]
+    transform: [['babelify', {presets: ['es2015'], plugins: ['transform-inline-environment-variables']}]]
   });
 
   return b.bundle()
