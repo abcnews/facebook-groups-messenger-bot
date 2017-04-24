@@ -3,8 +3,8 @@
 let shareMethod = 'broadcast';
 
 // Logging
-let log = window._LTracker = window._LTracker || [];
-log.push({
+window._LTracker = window._LTracker || [];
+window._LTracker.push({
   logglyKey: process.env.LOGGLY_KEY,
   sendConsoleErrors: true,
   tag: 'facebook-groupshare'
@@ -25,7 +25,13 @@ MessengerExtensionsPromise.then(function(MessengerExtensions) {
       shareMethod = 'current_thread';
     }
     // TODO: Redirect to app upgrade prompt
-  }, (err, msg) => console.error(err, msg));
+  }, (err, msg) => {
+    window._LTracker.push({
+      code: err,
+      message: msg
+    });
+    console.error(err, msg);
+  });
 });
 
 Array.prototype.forEach.call(document.querySelectorAll('a'), el => el.addEventListener('click', handleClick));
@@ -37,6 +43,7 @@ function handleClick (event) {
   event.stopPropagation();
 
   let dataset = event.currentTarget.dataset;
+  let url = event.currentTarget.getAttribute('href') + '?';
   let payload = {
     attachment: {
       type:"template",
@@ -48,12 +55,12 @@ function handleClick (event) {
           subtitle: dataset.shortTeaserText,
           default_action: {
             type: "web_url",
-            url: event.currentTarget.getAttribute('href')
+            url: url
           },
           buttons: [
             {
               type: "web_url",
-              url: event.currentTarget.getAttribute('href'),
+              url: url,
               title: "Read the story"
             }
             // {
@@ -73,22 +80,23 @@ function handleClick (event) {
   MessengerExtensionsPromise.then(function(MessengerExtensions) {
     MessengerExtensions.beginShareFlow(
       function success(response) {
+        window._LTracker.push({
+          url: url,
+          title: dataset.shortTeaserTitle,
+          method: shareMethod,
+          response: response
+        });
         if (response.is_sent === true || response.is_sent === 'true' /* Facebook bug */)  {
-          log.push({
-            message: 'Successful share',
-            url: event.currentTarget.getAttribute('href'),
-            title: dataset.shortTeaserTitle,
-            method: shareMethod
-          });
           MessengerExtensions.requestCloseBrowser();
         }
       },
       function error(errorCode, errorMessage) {
         // TODO: How to notify the user of a failure at this point?
-        log.push({
+        window._LTracker.push({
           code: errorCode,
           message: errorMessage
         });
+        console.error(errorCode, errorMessage);
       },
       payload,
       shareMethod
