@@ -11,6 +11,7 @@ RUN npm install
 # Bundle app source
 COPY . /usr/src/app
 
+ARG LOGGLY_KEY
 RUN node_modules/gulp/bin/gulp.js build
 
 EXPOSE 3000

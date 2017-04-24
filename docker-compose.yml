@@ -38,7 +38,10 @@ services:
       - credentials.env
     restart: unless-stopped
   newsbot-prod:
-    build: .
+    build:
+      context: .
+      args:
+        - LOGGLY_KEY
     image: newsbot
     container_name: newsbot-prod
     environment:
