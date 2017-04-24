@@ -4,6 +4,7 @@ const logger = require('morgan');
 const exphbs  = require('express-handlebars');
 const apicache = require('apicache');
 const log = require('./lib/log');
+const serializeReq = require('./lib/requestSerializer');
 
 const app = express();
 
@@ -45,6 +46,7 @@ app.use('/fallback', require('./routes/fallback'));
 app.use(function(req, res, next) {
   var err = new Error('Not Found');
   err.status = 404;
+  err.req = serializeReq(req);
   next(err);
 });
 
