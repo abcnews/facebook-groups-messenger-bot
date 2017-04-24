@@ -8,6 +8,7 @@ const source = require('vinyl-source-stream');
 const buffer = require('vinyl-buffer');
 const gutil = require('gulp-util');
 const uglify = require('gulp-uglify');
+const size = require('gulp-size');
 
 gulp.task('sass', function () {
   gulp.src('./public_src/css/*.scss')
@@ -27,13 +28,14 @@ gulp.task('js', function () {
   var b = browserify({
     entries: './public_src/js/index.js',
     debug: true,
-    transform: [['babelify', {presets: ['es2015'], plugins: ['transform-inline-environment-variables']}]]
+    transform: [['babelify', {presets: ['es2015'], plugins: ['es6-promise', 'transform-inline-environment-variables']}]]
   });
 
   return b.bundle()
     .pipe(source('index.js'))
     .pipe(buffer())
     .pipe(uglify())
+    .pipe(size())
     .on('error', gutil.log)
     .pipe(gulp.dest('./public/js/'));
 });
