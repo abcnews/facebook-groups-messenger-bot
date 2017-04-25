@@ -43,7 +43,7 @@ function handleClick (event) {
   event.stopPropagation();
 
   let dataset = event.currentTarget.dataset;
-  let url = event.currentTarget.getAttribute('href') + '?';
+  let url = event.currentTarget.getAttribute('href') + '?=smid=FB_M|News&WT.tsrc=Facebook_Messenger';
   let payload = {
     attachment: {
       type:"template",
