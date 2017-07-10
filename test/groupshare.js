@@ -5,7 +5,7 @@ const supertest = require('supertest');
 const assert = require('assert');
 const nock = require('nock');
 const setup = require('./helpers/setup');
-const topStories = require('./data/topstories');
+const topStories = fs.readFileSync(path.join(__dirname, './data/topstories.rss'), 'utf8');
 const bingSearch = require('./data/bingsearch');
 const article = require('./data/article');
 let request;
@@ -15,7 +15,7 @@ function assertStory($){
     const href = $(this).find('a').attr('href');
     const shortTeaserTitle = $(this).find('a').data('short-teaser-title');
     const shortTeaserText = $(this).find('a').data('short-teaser-text');
-    const imgSrcProxied = $(this).find('img').attr('src');
+    const imgSrcProxied = $(this).find('img').attr('src');topStories
     const rimgSrc = $(this).find('a').data('image');
     const title = $(this).text().trim();
     assert(href.match(/http:\/\/www.abc.net.au\/news\/.*\/\d+/), 'should look like a proper URL');
@@ -38,8 +38,8 @@ describe('groupshare', function(){
   });
 
   it('should get index', (done) => {
-    nock('https://content-gateway.abc-prod.net.au')
-      .get('/api/v2/content/id/8418312')
+    nock('http://www.abc.net.au')
+      .get(/.*/)
       .reply(200, topStories);
 
     request
@@ -60,7 +60,7 @@ describe('groupshare', function(){
 
   it('should perform a search', (done) => {
     // get the top stories index
-    nock('https://content-gateway.abc-prod.net.au')
+    nock('http://www.abc.net.au')
       .get(/.*/)
       .reply(200, topStories);
 

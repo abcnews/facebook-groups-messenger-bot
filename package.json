@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node ./bin/www",
+    "build": "gulp build",
     "test": "source ./credentials.env && mocha"
   },
   "dependencies": {
@@ -16,7 +17,8 @@
     "express": "^4.13.3",
     "express-handlebars": "^3.0.0",
     "morgan": "^1.6.1",
-    "request": "^2.81.0"
+    "request": "^2.81.0",
+    "util-url2cmid": "git+ssh://git@stash.abc-dev.net.au:7999/news/util-url2cmid.git"
   },
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1",

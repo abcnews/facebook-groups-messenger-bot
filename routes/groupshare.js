@@ -20,11 +20,11 @@ router.get('/', function(req, res) {
       collections: collections
     });
   }, function (err) {
+    const isDevelopment = process.env.NODE_ENV === 'development';
+    if(isDevelopment) console.error(err);
     res.status(500).render('error', {
       title: 'Error',
-      message: (process.env.NODE_ENV === 'development')
-       ? 'Sorry, something unexpectedly went wrong. Please <a href="/groupshare">try your request again</a>.'
-       : err.message
+      message: isDevelopment ? err.message : 'Sorry, something unexpectedly went wrong. Please <a href="/groupshare">try your request again</a>.'
     });
   });
 });
