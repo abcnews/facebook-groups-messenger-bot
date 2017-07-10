@@ -10,12 +10,16 @@
   {{#collections}}
   <h2>{{title}}</h2>
   {{#if message}}<p>{{message}}</p>{{/if}}
-  <ul>
+  <ul class="collection-{{id}}">
     {{#documents}}
     <li>
-      <a href="{{canonicalUrl}}" data-short-teaser-title="{{shortTeaserTitle}}" data-short-teaser-text="{{shortTeaserTextPlain}}" data-image="{{imageUrl}}">
+      <a
+        href="{{canonicalUrl}}"
+        data-short-teaser-title="{{shortTeaserTitle}}"
+        data-short-teaser-text="{{shortTeaserTextPlain}}"
+        data-image="{{imageUrl}}">
         <div>
-          <img src="{{imageProxyUrl}}" />
+          <img src="{{imageUrl}}" />
           <p>{{teaserTitle}}</p>
         </div>
         <button><img src="/img/ic_send_lg_white@3x.png" width="16" height="16"/> Send</button>
