@@ -1,0 +1,1578 @@
+{
+  "id" : 8418312,
+  "docType" : "DynamicCollection",
+  "title" : "Top Stories",
+  "shortTeaserTitle" : "Top stories",
+  "teaserTitle" : "Top Stories",
+  "contentGenre" : "Current",
+  "firstPublishedDate" : "2017-04-05T04:02:17+00:00",
+  "lastPublishedDate" : "2017-04-05T04:02:17+00:00",
+  "version" : 3,
+  "importance" : 0,
+  "lang" : "en",
+  "canonicalUrl" : "http://www.abc.net.au/news/2017-04-05/8418312",
+  "rootNavigation" : {
+    "id" : 45902,
+    "segment" : "news",
+    "title" : "ABC News"
+  },
+  "viewType" : "indexx",
+  "items" : [ {
+    "id" : 8687268,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8688250-16x9-thumbnail.jpg?v=7",
+        "width" : 160,
+        "height" : 90,
+        "size" : 3825,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688250-16x9-large.jpg?v=7",
+        "width" : 700,
+        "height" : 394,
+        "size" : 33654,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688250-1x1-thumbnail.jpg?v=7",
+        "width" : 160,
+        "height" : 160,
+        "size" : 5758,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688250-1x1-large.jpg?v=7",
+        "width" : 700,
+        "height" : 700,
+        "size" : 53694,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688250-4x3-thumbnail.jpg?v=7",
+        "width" : 160,
+        "height" : 120,
+        "size" : 4640,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688250-4x3-large.jpg?v=7",
+        "width" : 700,
+        "height" : 525,
+        "size" : 42223,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688250-3x4-thumbnail.jpg?v=7",
+        "width" : 160,
+        "height" : 213,
+        "size" : 7265,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688250-3x4-large.jpg?v=7",
+        "width" : 700,
+        "height" : 934,
+        "size" : 68089,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688250-3x2-thumbnail.jpg?v=7",
+        "width" : 160,
+        "height" : 107,
+        "size" : 4378,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688250-3x2-large.jpg?v=7",
+        "width" : 700,
+        "height" : 467,
+        "size" : 38992,
+        "ratio" : "3x2"
+      } ]
+    },
+    "contributors" : [ {
+      "roleName" : "Author",
+      "contributorItems" : [ {
+        "id" : 6806558,
+        "docType" : "Person"
+      }, {
+        "id" : 5825102,
+        "firstName" : "Tom",
+        "lastName" : "Fedorowytsch",
+        "docType" : "Person"
+      }, {
+        "id" : 5926406,
+        "docType" : "Person"
+      } ]
+    } ],
+    "shortTeaserText" : "<p>The world's largest lithium ion battery will be installed in South Australia under an agreement between Tesla, Neoen and the State Government, Premier Jay Weatherill announces.</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/sa-to-get-worlds-biggest-lithium-ion-battery/8687268",
+    "featuredMedia" : [ {
+      "id" : 8688296,
+      "docType" : "Video"
+    }, {
+      "id" : 8688388,
+      "docType" : "ImageProxy"
+    } ]
+  }, {
+    "id" : 8687774,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8682036-16x9-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 90,
+        "size" : 5258,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8682036-16x9-large.jpg?v=2",
+        "width" : 700,
+        "height" : 394,
+        "size" : 31665,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8682036-1x1-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 160,
+        "size" : 7505,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8682036-1x1-large.jpg?v=2",
+        "width" : 541,
+        "height" : 538,
+        "size" : 39339,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8682036-4x3-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 120,
+        "size" : 6374,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8682036-4x3-large.jpg?v=2",
+        "width" : 700,
+        "height" : 525,
+        "size" : 40816,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8682036-3x4-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 213,
+        "size" : 8991,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8682036-3x4-large.jpg?v=2",
+        "width" : 402,
+        "height" : 538,
+        "size" : 30428,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8682036-3x2-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 107,
+        "size" : 5867,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8682036-3x2-large.jpg?v=2",
+        "width" : 700,
+        "height" : 467,
+        "size" : 36898,
+        "ratio" : "3x2"
+      } ]
+    },
+    "shortTeaserText" : "<p>The AFL's former diversity manager is charged with intentionally causing injury, recklessly causing injury and unlawful assault following an incident at a suburban football match in Melbourne.</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/ali-fahour-former-afl-diversity-manager-charged/8687774",
+    "featuredMedia" : [ {
+      "id" : 8687898,
+      "docType" : "ImageProxy"
+    } ]
+  }, {
+    "id" : 8687900,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8688318-16x9-thumbnail.jpg?v=3",
+        "width" : 160,
+        "height" : 90,
+        "size" : 3977,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688318-16x9-large.jpg?v=3",
+        "width" : 700,
+        "height" : 394,
+        "size" : 28022,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688318-1x1-thumbnail.jpg?v=3",
+        "width" : 160,
+        "height" : 160,
+        "size" : 6967,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688318-1x1-large.jpg?v=3",
+        "width" : 700,
+        "height" : 700,
+        "size" : 60559,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688318-4x3-thumbnail.jpg?v=3",
+        "width" : 160,
+        "height" : 120,
+        "size" : 5076,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688318-4x3-large.jpg?v=3",
+        "width" : 700,
+        "height" : 525,
+        "size" : 41034,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688318-3x4-thumbnail.jpg?v=3",
+        "width" : 160,
+        "height" : 213,
+        "size" : 9171,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688318-3x4-large.jpg?v=3",
+        "width" : 700,
+        "height" : 934,
+        "size" : 84565,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688318-3x2-thumbnail.jpg?v=3",
+        "width" : 160,
+        "height" : 107,
+        "size" : 4546,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688318-3x2-large.jpg?v=3",
+        "width" : 700,
+        "height" : 467,
+        "size" : 34587,
+        "ratio" : "3x2"
+      } ]
+    },
+    "contributors" : [ {
+      "roleName" : "Author",
+      "contributorItems" : [ {
+        "id" : 8156466,
+        "firstName" : "Elise",
+        "lastName" : "Scott",
+        "docType" : "Person"
+      } ]
+    } ],
+    "shortTeaserText" : "<p>A man is found not guilty of attempting to rape a 24-year-old woman he met on a sugar daddy website.</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/sugar-daddy-found-not-guilty-of-attempting-to-rape-woman/8687900",
+    "featuredMedia" : [ {
+      "id" : 8688330,
+      "docType" : "ImageProxy"
+    } ]
+  }, {
+    "id" : 8686996,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8687358-16x9-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 90,
+        "size" : 4670,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687358-16x9-large.jpg?v=2",
+        "width" : 700,
+        "height" : 394,
+        "size" : 26122,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687358-1x1-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 160,
+        "size" : 6871,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687358-1x1-large.jpg?v=2",
+        "width" : 530,
+        "height" : 530,
+        "size" : 31076,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687358-4x3-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 120,
+        "size" : 5614,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687358-4x3-large.jpg?v=2",
+        "width" : 700,
+        "height" : 525,
+        "size" : 31089,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687358-3x4-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 213,
+        "size" : 8106,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687358-3x4-large.jpg?v=2",
+        "width" : 398,
+        "height" : 530,
+        "size" : 23985,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687358-3x2-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 107,
+        "size" : 5151,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687358-3x2-large.jpg?v=2",
+        "width" : 700,
+        "height" : 467,
+        "size" : 28935,
+        "ratio" : "3x2"
+      } ]
+    },
+    "contributors" : [ {
+      "roleName" : "Author",
+      "contributorItems" : [ {
+        "id" : 6989668,
+        "firstName" : "Lee",
+        "lastName" : "Brooks",
+        "docType" : "Person"
+      } ]
+    } ],
+    "shortTeaserText" : "<p>Telstra and Dodo customers are giving the telcos a bad rap in a CHOICE survey that found 62 per cent of Australians experience problems with internet services.</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/telstra-shamed-in-choice-survey-on-internet-satisfication/8686996",
+    "featuredMedia" : [ {
+      "id" : 8687374,
+      "docType" : "ImageProxy"
+    } ]
+  }, {
+    "id" : 8687428,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8687302-16x9-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 90,
+        "size" : 4207,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687302-16x9-large.jpg?v=2",
+        "width" : 700,
+        "height" : 394,
+        "size" : 27929,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687302-1x1-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 160,
+        "size" : 5925,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687302-1x1-large.jpg?v=2",
+        "width" : 576,
+        "height" : 576,
+        "size" : 29428,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687302-4x3-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 120,
+        "size" : 5013,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687302-4x3-large.jpg?v=2",
+        "width" : 700,
+        "height" : 525,
+        "size" : 31986,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687302-3x4-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 213,
+        "size" : 6727,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687302-3x4-large.jpg?v=2",
+        "width" : 431,
+        "height" : 576,
+        "size" : 21881,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687302-3x2-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 107,
+        "size" : 4610,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687302-3x2-large.jpg?v=2",
+        "width" : 700,
+        "height" : 467,
+        "size" : 30258,
+        "ratio" : "3x2"
+      } ]
+    },
+    "shortTeaserText" : "<p>A horrific knee injury to Bethanie Mattek-Sands shocks Wimbledon, as the American's screams of pain stun the crowd and her opponent.</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/mattek-sands-screams-in-pain-as-knee-injury-horrifies-wimbledon/8687428",
+    "featuredMedia" : [ {
+      "id" : 8687454,
+      "docType" : "Teaser"
+    }, {
+      "id" : 8687302,
+      "docType" : "Image"
+    } ]
+  }, {
+    "id" : 8686452,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8687084-16x9-thumbnail.jpg?v=3",
+        "width" : 160,
+        "height" : 90,
+        "size" : 5562,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687084-16x9-large.jpg?v=3",
+        "width" : 700,
+        "height" : 394,
+        "size" : 36316,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687084-1x1-thumbnail.jpg?v=3",
+        "width" : 160,
+        "height" : 160,
+        "size" : 8459,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687084-1x1-large.jpg?v=3",
+        "width" : 700,
+        "height" : 700,
+        "size" : 59265,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687084-4x3-thumbnail.jpg?v=3",
+        "width" : 160,
+        "height" : 120,
+        "size" : 6769,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687084-4x3-large.jpg?v=3",
+        "width" : 700,
+        "height" : 525,
+        "size" : 47693,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687084-3x4-thumbnail.jpg?v=3",
+        "width" : 160,
+        "height" : 213,
+        "size" : 10934,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687084-3x4-large.jpg?v=3",
+        "width" : 700,
+        "height" : 934,
+        "size" : 76541,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687084-3x2-thumbnail.jpg?v=3",
+        "width" : 160,
+        "height" : 107,
+        "size" : 6228,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687084-3x2-large.jpg?v=3",
+        "width" : 700,
+        "height" : 467,
+        "size" : 42963,
+        "ratio" : "3x2"
+      } ]
+    },
+    "shortTeaserText" : "<p>Around 75 officers are injured as masked protesters in Hamburg throw bottles and stones and set fire to cars ahead of the G20 summit.</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/german-police-clash-with-g20-protesters-in-hamburg/8686452",
+    "featuredMedia" : [ {
+      "id" : 8687622,
+      "docType" : "Teaser"
+    }, {
+      "id" : 8687166,
+      "docType" : "ImageProxy"
+    } ]
+  }, {
+    "id" : 8686438,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8686684-16x9-thumbnail.jpg?v=4",
+        "width" : 160,
+        "height" : 90,
+        "size" : 5568,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686684-16x9-large.jpg?v=4",
+        "width" : 700,
+        "height" : 394,
+        "size" : 33375,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686684-1x1-thumbnail.jpg?v=4",
+        "width" : 160,
+        "height" : 160,
+        "size" : 7316,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686684-1x1-large.jpg?v=4",
+        "width" : 675,
+        "height" : 675,
+        "size" : 53208,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686684-4x3-thumbnail.jpg?v=4",
+        "width" : 160,
+        "height" : 120,
+        "size" : 6230,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686684-4x3-large.jpg?v=4",
+        "width" : 700,
+        "height" : 525,
+        "size" : 37496,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686684-3x4-thumbnail.jpg?v=4",
+        "width" : 160,
+        "height" : 213,
+        "size" : 8358,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686684-3x4-large.jpg?v=4",
+        "width" : 505,
+        "height" : 675,
+        "size" : 38392,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686684-3x2-thumbnail.jpg?v=4",
+        "width" : 160,
+        "height" : 107,
+        "size" : 5926,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686684-3x2-large.jpg?v=4",
+        "width" : 700,
+        "height" : 467,
+        "size" : 35524,
+        "ratio" : "3x2"
+      } ]
+    },
+    "contributors" : [ {
+      "roleName" : "Author",
+      "contributorItems" : [ {
+        "id" : 166950,
+        "firstName" : "Chris",
+        "lastName" : "Uhlmann",
+        "docType" : "Person"
+      } ]
+    } ],
+    "shortTeaserText" : "<p>But given Donald Trump's lack of options on North Korea his stance is redolent of Barack Obama's strategic miscalculation in Syria, Chris Uhlmann writes.</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/has-us-worked-australia-into-unplayable-diplomatic-position/8686438",
+    "featuredMedia" : [ {
+      "id" : 8686700,
+      "docType" : "Teaser"
+    }, {
+      "id" : 8686684,
+      "docType" : "Image"
+    } ]
+  }, {
+    "id" : 8687824,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8273470-16x9-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 90,
+        "size" : 8428,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8273470-16x9-large.jpg?v=2",
+        "width" : 700,
+        "height" : 394,
+        "size" : 61817,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8273470-1x1-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 160,
+        "size" : 12031,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8273470-1x1-large.jpg?v=2",
+        "width" : 700,
+        "height" : 700,
+        "size" : 81721,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8273470-4x3-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 120,
+        "size" : 10126,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8273470-4x3-large.jpg?v=2",
+        "width" : 700,
+        "height" : 525,
+        "size" : 73668,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8273470-3x4-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 213,
+        "size" : 13741,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8273470-3x4-large.jpg?v=2",
+        "width" : 700,
+        "height" : 934,
+        "size" : 86250,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8273470-3x2-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 107,
+        "size" : 9075,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8273470-3x2-large.jpg?v=2",
+        "width" : 700,
+        "height" : 467,
+        "size" : 66541,
+        "ratio" : "3x2"
+      } ]
+    },
+    "contributors" : [ {
+      "roleName" : "Author",
+      "contributorItems" : [ {
+        "id" : 8259322,
+        "firstName" : "Andrew",
+        "lastName" : "Probyn",
+        "docType" : "Person"
+      } ]
+    } ],
+    "shortTeaserText" : "<p>The party that solves the wage-growth puzzle will be best-placed to secure government in 2019.</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/labor-lnp-battling-for-popularity-on-wage-growth-probyn/8687824",
+    "featuredMedia" : [ {
+      "id" : 8688042,
+      "docType" : "ImageProxy"
+    } ]
+  }, {
+    "id" : 8673476,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8653286-16x9-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 90,
+        "size" : 7219,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8653286-16x9-large.jpg?v=2",
+        "width" : 597,
+        "height" : 336,
+        "size" : 55124,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8653286-1x1-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 160,
+        "size" : 11352,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8653286-1x1-large.jpg?v=2",
+        "width" : 438,
+        "height" : 438,
+        "size" : 56300,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8653286-4x3-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 120,
+        "size" : 9144,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8653286-4x3-large.jpg?v=2",
+        "width" : 584,
+        "height" : 438,
+        "size" : 71765,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8653286-3x4-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 213,
+        "size" : 14394,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8653286-3x4-large.jpg?v=2",
+        "width" : 328,
+        "height" : 438,
+        "size" : 49145,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8653286-3x2-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 107,
+        "size" : 8495,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8653286-3x2-large.jpg?v=2",
+        "width" : 597,
+        "height" : 398,
+        "size" : 64776,
+        "ratio" : "3x2"
+      } ]
+    },
+    "contributors" : [ {
+      "roleName" : "Author",
+      "contributorItems" : [ {
+        "id" : 6830306,
+        "firstName" : "Kellie",
+        "lastName" : "Scott",
+        "docType" : "Person"
+      } ]
+    } ],
+    "shortTeaserText" : "<p>Tessa Dijkgraaf joined Tinder to find a no-strings-attached relationship. So you can imagine her surprise when suspected food poisoning turned out to be pregnancy.</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/when-casual-sex-on-a-tinder-date-results-in-motherhood/8673476",
+    "featuredMedia" : [ {
+      "id" : 8673670,
+      "docType" : "ImageProxy"
+    } ]
+  }, {
+    "id" : 8687920,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8688082-16x9-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 90,
+        "size" : 7008,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688082-16x9-large.jpg?v=2",
+        "width" : 700,
+        "height" : 394,
+        "size" : 52387,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688082-1x1-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 160,
+        "size" : 8878,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688082-1x1-large.jpg?v=2",
+        "width" : 700,
+        "height" : 700,
+        "size" : 68842,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688082-4x3-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 120,
+        "size" : 7813,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688082-4x3-large.jpg?v=2",
+        "width" : 700,
+        "height" : 525,
+        "size" : 61092,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688082-3x4-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 213,
+        "size" : 11734,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688082-3x4-large.jpg?v=2",
+        "width" : 700,
+        "height" : 934,
+        "size" : 81130,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688082-3x2-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 107,
+        "size" : 6965,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8688082-3x2-large.jpg?v=2",
+        "width" : 700,
+        "height" : 467,
+        "size" : 58992,
+        "ratio" : "3x2"
+      } ]
+    },
+    "shortTeaserText" : "<p>Though the pay dispute in Australia threatens to ruin the upcoming Ashes series, some greats of English cricket have offered support to the Aussie players for \"sticking tight\".</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/england-sticks-by-australias-defiant-cricketers/8687920",
+    "featuredMedia" : [ {
+      "id" : 8687828,
+      "docType" : "Video"
+    } ]
+  }, {
+    "id" : 8687168,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8216508-16x9-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 90,
+        "size" : 7106,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8216508-16x9-large.jpg?v=2",
+        "width" : 700,
+        "height" : 394,
+        "size" : 58711,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8216508-1x1-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 160,
+        "size" : 11622,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8216508-1x1-large.jpg?v=2",
+        "width" : 700,
+        "height" : 700,
+        "size" : 100970,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8216508-4x3-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 120,
+        "size" : 9125,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8216508-4x3-large.jpg?v=2",
+        "width" : 700,
+        "height" : 525,
+        "size" : 81312,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8216508-3x4-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 213,
+        "size" : 14351,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8216508-3x4-large.jpg?v=2",
+        "width" : 700,
+        "height" : 934,
+        "size" : 120467,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8216508-3x2-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 107,
+        "size" : 8370,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8216508-3x2-large.jpg?v=2",
+        "width" : 700,
+        "height" : 467,
+        "size" : 72470,
+        "ratio" : "3x2"
+      } ]
+    },
+    "contributors" : [ {
+      "roleName" : "Author",
+      "contributorItems" : [ {
+        "id" : 8543210,
+        "firstName" : "David",
+        "lastName" : "Chau",
+        "docType" : "Person"
+      } ]
+    } ],
+    "shortTeaserText" : "<p>Bellamy's shares are in a trading halt while it investigates why China suspended the export licence of its new canning facility.</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/china-suspends-export-licence-of-bellamys-new-canning-facility/8687168",
+    "featuredMedia" : [ {
+      "id" : 8687032,
+      "docType" : "ImageProxy"
+    } ]
+  }, {
+    "id" : 8685480,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8566916-16x9-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 90,
+        "size" : 7806,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8566916-16x9-large.jpg?v=2",
+        "width" : 700,
+        "height" : 394,
+        "size" : 67312,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8566916-1x1-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 160,
+        "size" : 11561,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8566916-1x1-large.jpg?v=2",
+        "width" : 700,
+        "height" : 700,
+        "size" : 103524,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8566916-4x3-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 120,
+        "size" : 9315,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8566916-4x3-large.jpg?v=2",
+        "width" : 700,
+        "height" : 525,
+        "size" : 82966,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8566916-3x4-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 213,
+        "size" : 13989,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8566916-3x4-large.jpg?v=2",
+        "width" : 700,
+        "height" : 934,
+        "size" : 124420,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8566916-3x2-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 107,
+        "size" : 8766,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8566916-3x2-large.jpg?v=2",
+        "width" : 700,
+        "height" : 467,
+        "size" : 76837,
+        "ratio" : "3x2"
+      } ]
+    },
+    "shortTeaserText" : "<p>The world's leaders have gathered in Germany. How much do you know about the G20 leaders (and their interactions with Donald Trump)?</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/g20-quiz/8685480"
+  }, {
+    "id" : 8687736,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8687702-16x9-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 90,
+        "size" : 4156,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687702-16x9-large.jpg?v=2",
+        "width" : 700,
+        "height" : 394,
+        "size" : 27474,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687702-1x1-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 160,
+        "size" : 6085,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687702-1x1-large.jpg?v=2",
+        "width" : 668,
+        "height" : 668,
+        "size" : 55411,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687702-4x3-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 120,
+        "size" : 5450,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687702-4x3-large.jpg?v=2",
+        "width" : 700,
+        "height" : 525,
+        "size" : 39195,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687702-3x4-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 213,
+        "size" : 7581,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687702-3x4-large.jpg?v=2",
+        "width" : 500,
+        "height" : 668,
+        "size" : 43594,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687702-3x2-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 107,
+        "size" : 4982,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687702-3x2-large.jpg?v=2",
+        "width" : 700,
+        "height" : 467,
+        "size" : 33209,
+        "ratio" : "3x2"
+      } ]
+    },
+    "shortTeaserText" : "<p>The number one rule for your CV according to a career expert is don't make up job titles or university degrees that can be easily checked.</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/writing-a-cv-how-much-can-you-lie/8687736",
+    "featuredMedia" : [ {
+      "id" : 8687710,
+      "docType" : "ImageProxy"
+    } ]
+  }, {
+    "id" : 8687158,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8687670-16x9-thumbnail.jpg?v=4",
+        "width" : 160,
+        "height" : 90,
+        "size" : 4316,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687670-16x9-large.jpg?v=4",
+        "width" : 700,
+        "height" : 394,
+        "size" : 25891,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687670-1x1-thumbnail.jpg?v=4",
+        "width" : 160,
+        "height" : 160,
+        "size" : 6698,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687670-1x1-large.jpg?v=4",
+        "width" : 700,
+        "height" : 700,
+        "size" : 42353,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687670-4x3-thumbnail.jpg?v=4",
+        "width" : 160,
+        "height" : 120,
+        "size" : 5318,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687670-4x3-large.jpg?v=4",
+        "width" : 700,
+        "height" : 525,
+        "size" : 33910,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687670-3x4-thumbnail.jpg?v=4",
+        "width" : 160,
+        "height" : 213,
+        "size" : 8649,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687670-3x4-large.jpg?v=4",
+        "width" : 571,
+        "height" : 762,
+        "size" : 48695,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687670-3x2-thumbnail.jpg?v=4",
+        "width" : 160,
+        "height" : 107,
+        "size" : 5073,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687670-3x2-large.jpg?v=4",
+        "width" : 700,
+        "height" : 467,
+        "size" : 31110,
+        "ratio" : "3x2"
+      } ]
+    },
+    "contributors" : [ {
+      "roleName" : "Author",
+      "contributorItems" : [ {
+        "id" : 7194458,
+        "firstName" : "Andrew",
+        "lastName" : "Kos",
+        "docType" : "Person"
+      } ]
+    } ],
+    "shortTeaserText" : "<p>A 37-year-old Solomon Islands national is granted bail after being arrested for online child grooming offences at Brisbane's International Airport.</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/man-charged-alleged-online-child-grooming-brisbane-airport/8687158",
+    "featuredMedia" : [ {
+      "id" : 8687680,
+      "docType" : "ImageProxy"
+    } ]
+  }, {
+    "id" : 8683478,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8687336-16x9-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 90,
+        "size" : 8007,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687336-16x9-large.jpg?v=2",
+        "width" : 700,
+        "height" : 394,
+        "size" : 61710,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687336-1x1-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 160,
+        "size" : 12176,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687336-1x1-large.jpg?v=2",
+        "width" : 700,
+        "height" : 700,
+        "size" : 91500,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687336-4x3-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 120,
+        "size" : 9840,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687336-4x3-large.jpg?v=2",
+        "width" : 700,
+        "height" : 525,
+        "size" : 73666,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687336-3x4-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 213,
+        "size" : 15400,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687336-3x4-large.jpg?v=2",
+        "width" : 668,
+        "height" : 896,
+        "size" : 124269,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687336-3x2-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 107,
+        "size" : 9018,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8687336-3x2-large.jpg?v=2",
+        "width" : 700,
+        "height" : 467,
+        "size" : 69531,
+        "ratio" : "3x2"
+      } ]
+    },
+    "shortTeaserText" : "<p>Years after they made international headlines, the Wilcannia Mob's story is still having a positive effect in the remote NSW town.</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/the-wilcannia-mob-legacy-fifteen-years-after-down-river/8683478",
+    "featuredMedia" : [ {
+      "id" : 8687364,
+      "docType" : "ImageProxy"
+    } ]
+  }, {
+    "id" : 8656768,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8656890-16x9-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 90,
+        "size" : 4877,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8656890-16x9-large.jpg?v=2",
+        "width" : 700,
+        "height" : 394,
+        "size" : 43307,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8656890-1x1-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 160,
+        "size" : 7881,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8656890-1x1-large.jpg?v=2",
+        "width" : 700,
+        "height" : 700,
+        "size" : 76251,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8656890-4x3-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 120,
+        "size" : 6082,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8656890-4x3-large.jpg?v=2",
+        "width" : 700,
+        "height" : 525,
+        "size" : 56424,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8656890-3x4-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 213,
+        "size" : 10135,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8656890-3x4-large.jpg?v=2",
+        "width" : 700,
+        "height" : 934,
+        "size" : 96567,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8656890-3x2-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 107,
+        "size" : 5627,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8656890-3x2-large.jpg?v=2",
+        "width" : 700,
+        "height" : 467,
+        "size" : 50506,
+        "ratio" : "3x2"
+      } ]
+    },
+    "contributors" : [ {
+      "roleName" : "Author",
+      "contributorItems" : [ {
+        "id" : 6762170,
+        "firstName" : "Bernie",
+        "lastName" : "Hobbs",
+        "docType" : "Person"
+      } ]
+    } ],
+    "shortTeaserText" : "<p>Viruses cause colds and flu, but it's a handful of chemicals in our immune system that are behind the achy, sneezy, runny side of things.   </p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/science/2017-07-07/real-cause-of-cold-and-flu-symptoms/8656768",
+    "featuredMedia" : [ {
+      "id" : 8656910,
+      "docType" : "ImageProxy"
+    } ]
+  }, {
+    "id" : 8687424,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8298090-16x9-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 90,
+        "size" : 5608,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8298090-16x9-large.jpg?v=2",
+        "width" : 700,
+        "height" : 394,
+        "size" : 36196,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8298090-1x1-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 160,
+        "size" : 8873,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8298090-1x1-large.jpg?v=2",
+        "width" : 700,
+        "height" : 700,
+        "size" : 61850,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8298090-4x3-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 120,
+        "size" : 7003,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8298090-4x3-large.jpg?v=2",
+        "width" : 700,
+        "height" : 525,
+        "size" : 48024,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8298090-3x4-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 213,
+        "size" : 11411,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8298090-3x4-large.jpg?v=2",
+        "width" : 700,
+        "height" : 934,
+        "size" : 78373,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8298090-3x2-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 107,
+        "size" : 6452,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8298090-3x2-large.jpg?v=2",
+        "width" : 700,
+        "height" : 467,
+        "size" : 43723,
+        "ratio" : "3x2"
+      } ]
+    },
+    "shortTeaserText" : "<p>US Secretary of State Rex Tillerson will travel to Kuwait on Monday to discuss efforts to resolve the Arab dispute with Qatar.</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/qatar-rex-tillerson-to-travel-to-kuwait-to-resolve-arab-dispute/8687424",
+    "featuredMedia" : [ {
+      "id" : 8687462,
+      "docType" : "ImageProxy"
+    } ]
+  }, {
+    "id" : 8686428,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8686876-16x9-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 90,
+        "size" : 3536,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686876-16x9-large.jpg?v=2",
+        "width" : 700,
+        "height" : 394,
+        "size" : 28206,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686876-1x1-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 160,
+        "size" : 5360,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686876-1x1-large.jpg?v=2",
+        "width" : 700,
+        "height" : 700,
+        "size" : 48267,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686876-4x3-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 120,
+        "size" : 4486,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686876-4x3-large.jpg?v=2",
+        "width" : 700,
+        "height" : 525,
+        "size" : 37735,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686876-3x4-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 213,
+        "size" : 6600,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686876-3x4-large.jpg?v=2",
+        "width" : 569,
+        "height" : 760,
+        "size" : 57784,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686876-3x2-thumbnail.jpg?v=2",
+        "width" : 160,
+        "height" : 107,
+        "size" : 4175,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8686876-3x2-large.jpg?v=2",
+        "width" : 700,
+        "height" : 467,
+        "size" : 34337,
+        "ratio" : "3x2"
+      } ]
+    },
+    "contributors" : [ {
+      "roleName" : "Author",
+      "contributorItems" : [ {
+        "id" : 166864,
+        "firstName" : "Matt",
+        "lastName" : "Brown",
+        "docType" : "Person"
+      } ]
+    } ],
+    "shortTeaserText" : "<p>Iraqi forces uncover more evidence of foreign fighters in Mosul including graffiti apparently left by an Australian jihadist.</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/mosul-iraqi-forces-uncover-australian-tagging-in-church/8686428",
+    "featuredMedia" : [ {
+      "id" : 8686448,
+      "docType" : "ImageProxy"
+    } ]
+  }, {
+    "id" : 8685238,
+    "docType" : "Article",
+    "shortTeaserTitle" : "short teaser title",
+    "teaserTitle" : "teaser title yo",
+    "shortTeaserTextPlain" : "short teaser text yo",
+    "thumbnailLink" : {
+      "id" : 12345,
+      "media" : [ {
+        "url" : "http://www.abc.net.au/cm/rimage/8685284-16x9-thumbnail.jpg?v=3",
+        "width" : 160,
+        "height" : 90,
+        "size" : 5527,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8685284-16x9-large.jpg?v=3",
+        "width" : 700,
+        "height" : 394,
+        "size" : 39371,
+        "ratio" : "16x9"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8685284-1x1-thumbnail.jpg?v=3",
+        "width" : 160,
+        "height" : 160,
+        "size" : 8293,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8685284-1x1-large.jpg?v=3",
+        "width" : 700,
+        "height" : 700,
+        "size" : 66024,
+        "ratio" : "1x1"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8685284-4x3-thumbnail.jpg?v=3",
+        "width" : 160,
+        "height" : 120,
+        "size" : 6796,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8685284-4x3-large.jpg?v=3",
+        "width" : 700,
+        "height" : 525,
+        "size" : 51280,
+        "ratio" : "4x3"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8685284-3x4-thumbnail.jpg?v=3",
+        "width" : 160,
+        "height" : 213,
+        "size" : 10090,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8685284-3x4-large.jpg?v=3",
+        "width" : 700,
+        "height" : 934,
+        "size" : 86292,
+        "ratio" : "3x4"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8685284-3x2-thumbnail.jpg?v=3",
+        "width" : 160,
+        "height" : 107,
+        "size" : 6468,
+        "ratio" : "3x2"
+      }, {
+        "url" : "http://www.abc.net.au/cm/rimage/8685284-3x2-large.jpg?v=3",
+        "width" : 700,
+        "height" : 467,
+        "size" : 46774,
+        "ratio" : "3x2"
+      } ]
+    },
+    "contributors" : [ {
+      "roleName" : "Author",
+      "contributorItems" : [ {
+        "id" : 8055032,
+        "firstName" : "Sofie",
+        "lastName" : "Wainwright",
+        "docType" : "Person"
+      } ]
+    } ],
+    "shortTeaserText" : "<p>A day in outback NSW patting and saddling up horses is part of professional development.</p>",
+    "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/sydney-university-students-pat-horses-in-the-outback/8685238",
+    "featuredMedia" : [ {
+      "id" : 8685430,
+      "docType" : "ImageProxy"
+    } ]
+  } ]
+}

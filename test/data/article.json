@@ -1,0 +1,212 @@
+{
+  "id" : 8687268,
+  "docType" : "Article",
+  "title" : "South Australia teams with Tesla, Neoen to build world's biggest lithium ion battery in bid to secure power",
+  "shortTeaserTitle" : "World's biggest lithium ion battery set for SA",
+  "teaserTitle" : "SA to get world's biggest lithium ion battery in 'historic' deal with Elon Musk",
+  "shortTeaserTextPlain" : "The world's largest lithium ion battery will be installed in South Australia under an agreement between Tesla, Neoen and the State Government, Premier Jay Weatherill announces.",
+  "shortTeaserTextXML" : {
+    "text" : "<div xmlns=\"http://www.coremedia.com/2003/richtext-1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><p>The world's largest lithium ion battery will be installed in South Australia under an agreement between Tesla, Neoen and the State Government, Premier Jay Weatherill announces.</p></div>"
+  },
+  "teaserTextPlain" : "The world's largest lithium ion battery will be installed in South Australia under an agreement between Tesla, Neoen and the State Government, Premier Jay Weatherill announces.",
+  "teaserTextXML" : {
+    "text" : "<div xmlns=\"http://www.coremedia.com/2003/richtext-1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><p>The world's largest lithium ion battery will be installed in South Australia under an agreement between Tesla, Neoen and the State Government, Premier Jay Weatherill announces.</p></div>"
+  },
+  "bylinePlain" : "By Sarah Scopelianos, Tom Fedorowytsch and Sara Garcia",
+  "bylineXML" : {
+    "text" : "<div xmlns=\"http://www.coremedia.com/2003/richtext-1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><p>By <a xlink:actuate=\"\" xlink:role=\"\" xlink:show=\"replace\" xlink:title=\"\" xlink:type=\"simple\" xlink:href=\"contentbean:6806558\">Sarah Scopelianos</a>, <a xlink:actuate=\"\" xlink:role=\"\" xlink:show=\"replace\" xlink:title=\"\" xlink:type=\"simple\" xlink:href=\"contentbean:5825102\">Tom Fedorowytsch</a> and <a xlink:actuate=\"\" xlink:role=\"\" xlink:show=\"replace\" xlink:title=\"\" xlink:type=\"simple\" xlink:href=\"contentbean:5926406\">Sara Garcia</a></p></div>"
+  },
+  "contentGenre" : "Current",
+  "thumbnailLink" : {
+    "id" : 8688264,
+    "media" : [ {
+      "url" : "http://www.abc.net.au/cm/rimage/8688250-16x9-thumbnail.jpg?v=7",
+      "width" : 160,
+      "height" : 90,
+      "size" : 3825,
+      "ratio" : "16x9"
+    }, {
+      "url" : "http://www.abc.net.au/cm/rimage/8688250-16x9-large.jpg?v=7",
+      "width" : 700,
+      "height" : 394,
+      "size" : 33654,
+      "ratio" : "16x9"
+    }, {
+      "url" : "http://www.abc.net.au/cm/rimage/8688250-1x1-thumbnail.jpg?v=7",
+      "width" : 160,
+      "height" : 160,
+      "size" : 5758,
+      "ratio" : "1x1"
+    }, {
+      "url" : "http://www.abc.net.au/cm/rimage/8688250-1x1-large.jpg?v=7",
+      "width" : 700,
+      "height" : 700,
+      "size" : 53694,
+      "ratio" : "1x1"
+    }, {
+      "url" : "http://www.abc.net.au/cm/rimage/8688250-4x3-thumbnail.jpg?v=7",
+      "width" : 160,
+      "height" : 120,
+      "size" : 4640,
+      "ratio" : "4x3"
+    }, {
+      "url" : "http://www.abc.net.au/cm/rimage/8688250-4x3-large.jpg?v=7",
+      "width" : 700,
+      "height" : 525,
+      "size" : 42223,
+      "ratio" : "4x3"
+    }, {
+      "url" : "http://www.abc.net.au/cm/rimage/8688250-3x4-thumbnail.jpg?v=7",
+      "width" : 160,
+      "height" : 213,
+      "size" : 7265,
+      "ratio" : "3x4"
+    }, {
+      "url" : "http://www.abc.net.au/cm/rimage/8688250-3x4-large.jpg?v=7",
+      "width" : 700,
+      "height" : 934,
+      "size" : 68089,
+      "ratio" : "3x4"
+    }, {
+      "url" : "http://www.abc.net.au/cm/rimage/8688250-3x2-thumbnail.jpg?v=7",
+      "width" : 160,
+      "height" : 107,
+      "size" : 4378,
+      "ratio" : "3x2"
+    }, {
+      "url" : "http://www.abc.net.au/cm/rimage/8688250-3x2-large.jpg?v=7",
+      "width" : 700,
+      "height" : 467,
+      "size" : 38992,
+      "ratio" : "3x2"
+    } ]
+  },
+  "relatedItems" : [ {
+    "id" : 8344084,
+    "docType" : "Article",
+    "shortTeaserTitle" : "Tesla pledges to fix SA power woes"
+  }, {
+    "id" : 8351450,
+    "docType" : "Article",
+    "shortTeaserTitle" : "SA's energy future"
+  } ],
+  "contributors" : [ {
+    "roleName" : "Author",
+    "contributorItems" : [ {
+      "id" : 6806558,
+      "docType" : "Person"
+    }, {
+      "id" : 5825102,
+      "firstName" : "Tom",
+      "lastName" : "Fedorowytsch",
+      "docType" : "Person"
+    }, {
+      "id" : 5926406,
+      "docType" : "Person"
+    } ]
+  } ],
+  "subject" : [ {
+    "name" : "Solar Energy",
+    "id" : 1414,
+    "parent" : {
+      "name" : "Alternative Energy",
+      "id" : 1408,
+      "parent" : {
+        "name" : "Environment",
+        "id" : 1406
+      }
+    }
+  }, {
+    "name" : "Alternative Energy",
+    "id" : 1408,
+    "parent" : {
+      "name" : "Environment",
+      "id" : 1406
+    }
+  }, {
+    "name" : "Environment",
+    "id" : 1406
+  }, {
+    "name" : "Electricity Energy and Utilities",
+    "id" : 896,
+    "parent" : {
+      "name" : "Industry",
+      "id" : 848,
+      "parent" : {
+        "name" : "Business, Economics and Finance",
+        "id" : 808
+      }
+    }
+  }, {
+    "name" : "States and Territories",
+    "id" : 1588,
+    "parent" : {
+      "name" : "Government and Politics",
+      "id" : 1534
+    }
+  }, {
+    "name" : "Government and Politics",
+    "id" : 1534
+  } ],
+  "location" : [ {
+    "name" : "Adelaide",
+    "id" : 18166,
+    "parent" : {
+      "name" : "SA",
+      "id" : 16838,
+      "parent" : {
+        "name" : "Australia",
+        "id" : 6864,
+        "latitude" : "-26.000",
+        "longitude" : "134.500"
+      },
+      "latitude" : "-35.2333",
+      "longitude" : "138.7500"
+    },
+    "postCode" : "5000",
+    "latitude" : "-34.9295",
+    "longitude" : "138.5982"
+  }, {
+    "name" : "SA",
+    "id" : 16838,
+    "parent" : {
+      "name" : "Australia",
+      "id" : 6864,
+      "latitude" : "-26.000",
+      "longitude" : "134.500"
+    },
+    "latitude" : "-35.2333",
+    "longitude" : "138.7500"
+  } ],
+  "firstPublishedDate" : "2017-07-07T02:34:18+00:00",
+  "lastPublishedDate" : "2017-07-07T04:26:42+00:00",
+  "shortTeaserText" : "<p>The world's largest lithium ion battery will be installed in South Australia under an agreement between Tesla, Neoen and the State Government, Premier Jay Weatherill announces.</p>",
+  "teaserText" : "<p>The world's largest lithium ion battery will be installed in South Australia under an agreement between Tesla, Neoen and the State Government, Premier Jay Weatherill announces.</p>",
+  "byline" : "<p>By <a href=\"http://www.abc.net.au/news/6806558\" target=\"_self\" title=\"\">Sarah Scopelianos</a>, <a href=\"http://www.abc.net.au/news/tom-fedorowytsch/5825102\" target=\"_self\" title=\"\">Tom Fedorowytsch</a> and <a href=\"http://www.abc.net.au/news/5926406\" target=\"_self\" title=\"\">Sara Garcia</a></p>",
+  "keywords" : [ "elon musk", "battery storage", "jay weatherill" ],
+  "latitude" : "-34.9295",
+  "longitude" : "138.5982",
+  "version" : 84,
+  "importance" : 5,
+  "lang" : "en",
+  "canonicalUrl" : "http://www.abc.net.au/news/2017-07-07/sa-to-get-worlds-biggest-lithium-ion-battery/8687268",
+  "rootNavigation" : {
+    "id" : 45902,
+    "segment" : "news",
+    "title" : "ABC News"
+  },
+  "viewType" : "firstrelatedwide",
+  "featuredMedia" : [ {
+    "id" : 8688296,
+    "docType" : "Video"
+  }, {
+    "id" : 8688388,
+    "docType" : "ImageProxy"
+  } ],
+  "productionUnit" : "States - Adelaide digital",
+  "textPlain" : "The world's largest lithium ion battery will be installed in South Australia under an agreement between Tesla, Neoen and the State Government, Premier Jay Weatherill has announced.\n\nTesla will build the battery which will store energy from French renewable company Neoen's Hornsdale Wind Farm near Jamestown, which is still under construction.\n\nThe project will be in place before summer.\n\nTesla boss Elon Musk has confirmed his commitment to deliver the battery within 100 days or it is free.\n\nThe 100 days starts once the grid interconnection agreement has been signed.\n\n[wind farm]\n\nThe Government said the 100-megawatt (129 megawatt hour) battery places SA at the forefront of global energy storage technology.\n\nThe battery will operate at all times providing stability services for renewable energy and will be available to provide emergency back-up power if a shortfall in energy is predicted.\n\nMr Musk told a press conference at Adelaide Oval that this project was \"not a minor foray into the frontier\".\n\n\"There is certainly some risk, because this will be the largest battery installation in the world by a significant margin ... the next biggest battery in the world is 30 megawatts,\" Mr Musk said.\n\n[photo: press conference]\n\nHe said it was \"three times further than anyone has gone before\" and would \"stabilise the grid and buffer power\".\n\n\"You can essentially charge up the battery packs when you have excess power when the cost of production is very low ... and then discharge it when the cost of power production is high, and this effectively lowers the average cost to the end customer,\" Mr Musk said.\n\n\"It's a fundamental efficiency improvement for the grid.\"\n\nMr Musk said the project would be primarily free for South Australian taxpayers if not delivered within 100 days.\n\n\"If South Australia is willing to take a big risk, then so are we.\"\n\n[Radio National Elon Musk piece]\n\nMr Musk, who also heads Space X, made the 100-day pledge via Twitter in March.\n\nThe pledge caught the attention of the twittersphere and fellow billionaire tech guru Australian Mike Cannon-Brookes, who co-founded software company Atlassian, who tweeted, \"Holy s#%t\".\n\nLater in March, the SA Government announced a $500-million power plan, which included owning and operating a $360-million gas-fired plant and building a 100MW battery before summer.\n\nMr Musk, who will visit Jamestown before he leaves Australia, said the battery would be \"nicely arranged white obelisks\".\n\n\"We're going to make an effort to have it look good, that it will also be a tourism destination.\"\n\nSA to lead battery storage technology\n\nSouth Australia suffered a statewide blackout last September, while during last summer's heatwave customers were intentionally blacked out because there was not enough power to meet demand.\n\n[timeline: SA power]\n\nMr Weatherill said the state had led the nation in renewable energy and would now lead the world in battery storage.\n\n\"It will completely transform the way in which renewable energy is stored, and also stabilise the South Australian network as well as putting downward pressure on prices,\" he said.\n\n\"It opens up new opportunities for renewable energy in this state, in this nation, and around the world, to be dispatchable [to be used].\"\n\nMr Weatherill said the Government had about 91 international bidders for the battery project.\n\n[photo: wind farm]\n\n\"That was of course assisted by a little bit of Twitter exchange in the few days before we released our plan between Elon Musk and also Mike Cannon-Brookes.\"\n\n\"This historic agreement does more than bring a sustainable energy giant in Tesla to South Australia, it will also have some significant economic spin-off,\" Mr Weatherill said.\n\n[tweet: Mike Cannon-Brookes]\n\nNeoen deputy chief executive Romain Desrousseaux said the company was proud to work with the Government and Tesla to expand the Hornsdale Wind Farm in Jamestown in the state's Mid North.\n\n\"At 100MW and 129MWh, the Hornsdale Power Reserve will become not only the largest renewable generator in the state but also home to the largest lithium ion battery in the world, with our company's long-term, direct investment in South Australia growing to almost $1 billion since 2013,\" he said.\n\nClimate Council chief councillor Professor Tim Flannery said the state was moving away from polluting, expensive and inefficient fossil fuels.\n\n\"South Australians are witnessing first hand how swiftly this technology can be built and used, with the battery expected to be up and running this summer,\" Professor Flannery said.\n\n\"South Australia joins the likes of California as a world leader in demonstrating how renewable energy and storage technologies can power our economy cheaply and cleanly.\"",
+  "text" : "<p>The world's largest lithium ion battery will be installed in South Australia under an agreement between Tesla, Neoen and the State Government, Premier Jay Weatherill has announced.</p><p>Tesla will build the battery which will store energy from French renewable company Neoen's Hornsdale Wind Farm near Jamestown, which is still under construction.</p><p>The project will be in place before summer.</p><p>Tesla boss Elon Musk has confirmed his commitment to deliver the battery within 100 days or it is free.</p><p>The 100 days starts once the grid interconnection agreement has been signed.</p><p> </p><p>The Government said the 100-megawatt (129 megawatt hour) battery places SA at the forefront of global energy storage technology.</p><p>The battery will operate at all times providing stability services for renewable energy and will be available to provide emergency back-up power if a shortfall in energy is predicted.</p><p>Mr Musk told a press conference at Adelaide Oval that this project was \"not a minor foray into the frontier\".</p><blockquote class=\"quote--pullquote\"><p>\"There is certainly some risk, because this will be the largest battery installation in the world by a significant margin ... the next biggest battery in the world is 30 megawatts,\" Mr Musk said.</p></blockquote><p> </p><p>He said it was \"three times further than anyone has gone before\" and would \"stabilise the grid and buffer power\".</p><p>\"You can essentially charge up the battery packs when you have excess power when the cost of production is very low ... and then discharge it when the cost of power production is high, and this effectively lowers the average cost to the end customer,\" Mr Musk said.</p><p>\"It's a fundamental efficiency improvement for the grid.\"</p><p>Mr Musk<strong> </strong>said the project would be primarily free for South Australian taxpayers if not delivered within 100 days.</p><p>\"If South Australia is willing to take a big risk, then so are we.\"</p><p> </p><p>Mr Musk, who also heads Space X, made the 100-day pledge via Twitter in March.</p><p>The pledge caught the attention of the twittersphere and fellow billionaire tech guru Australian Mike Cannon-Brookes, who co-founded software company Atlassian, who tweeted, \"Holy s#%t\".</p><p>Later in March, the SA Government announced a $500-million power plan, which included owning and operating a $360-million gas-fired plant and building a 100MW battery before summer.</p><p>Mr Musk, who will visit Jamestown before he leaves Australia, said the battery would be \"nicely arranged white obelisks\".</p><blockquote class=\"quote--pullquote\"><p>\"We're going to make an effort to have it look good, that it will also be a tourism destination.\"</p></blockquote><h4>SA to lead battery storage technology</h4><p>South Australia suffered a statewide blackout last September, while during last summer's heatwave customers were intentionally blacked out because there was not enough power to meet demand.</p><p> </p><p>Mr Weatherill said the state had led the nation in renewable energy and would now lead the world in battery storage.</p><p>\"It will completely transform the way in which renewable energy is stored, and also stabilise the South Australian network as well as putting downward pressure on prices,\" he said.</p><p>\"It opens up new opportunities for renewable energy in this state, in this nation, and around the world, to be dispatchable [to be used].\"</p><p>Mr Weatherill said the Government had about 91 international bidders for the battery project.</p><p> </p><p>\"That was of course assisted by a little bit of Twitter exchange in the few days before we released our plan between Elon Musk and also Mike Cannon-Brookes.\"</p><p>\"This historic agreement does more than bring a sustainable energy giant in Tesla to South Australia, it will also have some significant economic spin-off,\" Mr Weatherill said.</p><p> </p><p>Neoen deputy chief executive Romain Desrousseaux said the company was proud to work with the Government and Tesla to expand the Hornsdale Wind Farm in Jamestown in the state's Mid North.</p><p>\"At 100MW and 129MWh, the Hornsdale Power Reserve will become not only the largest renewable generator in the state but also home to the largest lithium ion battery in the world, with our company's long-term, direct investment in South Australia growing to almost $1 billion since 2013,\" he said.</p><p>Climate Council chief councillor Professor Tim Flannery said the state was moving away from polluting, expensive and inefficient fossil fuels.</p><p>\"South Australians are witnessing first hand how swiftly this technology can be built and used, with the battery expected to be up and running this summer,\" Professor Flannery said.</p><p>\"South Australia joins the likes of California as a world leader in demonstrating how renewable energy and storage technologies can power our economy cheaply and cleanly.\"</p>",
+  "textXML" : {
+    "text" : "<div xmlns=\"http://www.coremedia.com/2003/richtext-1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><p>The world's largest lithium ion battery will be installed in South Australia under an agreement between Tesla, Neoen and the State Government, Premier Jay Weatherill has announced.</p><p>Tesla will build the battery which will store energy from French renewable company Neoen's Hornsdale Wind Farm near Jamestown, which is still under construction.</p><p>The project will be in place before summer.</p><p>Tesla boss Elon Musk has confirmed his commitment to deliver the battery within 100 days or it is free.</p><p>The 100 days starts once the grid interconnection agreement has been signed.</p><p><a xlink:role=\"\" xlink:show=\"embed\" xlink:title=\"\" xlink:type=\"simple\" xlink:href=\"contentbean:8688264\">[wind farm]</a></p><p>The Government said the 100-megawatt (129 megawatt hour) battery places SA at the forefront of global energy storage technology.</p><p>The battery will operate at all times providing stability services for renewable energy and will be available to provide emergency back-up power if a shortfall in energy is predicted.</p><p>Mr Musk told a press conference at Adelaide Oval that this project was \"not a minor foray into the frontier\".</p><blockquote class=\"quote--pullquote\"><p>\"There is certainly some risk, because this will be the largest battery installation in the world by a significant margin ... the next biggest battery in the world is 30 megawatts,\" Mr Musk said.</p></blockquote><p><a xlink:role=\"\" xlink:show=\"none\" xlink:title=\"\" xlink:type=\"simple\" xlink:href=\"contentbean:8688168\">[photo: press conference]</a></p><p>He said it was \"three times further than anyone has gone before\" and would \"stabilise the grid and buffer power\".</p><p>\"You can essentially charge up the battery packs when you have excess power when the cost of production is very low ... and then discharge it when the cost of power production is high, and this effectively lowers the average cost to the end customer,\" Mr Musk said.</p><p>\"It's a fundamental efficiency improvement for the grid.\"</p><p>Mr Musk<strong> </strong>said the project would be primarily free for South Australian taxpayers if not delivered within 100 days.</p><p>\"If South Australia is willing to take a big risk, then so are we.\"</p><p><a xlink:role=\"\" xlink:show=\"none\" xlink:title=\"\" xlink:type=\"simple\" xlink:href=\"contentbean:8345656\">[Radio National Elon Musk piece]</a></p><p>Mr Musk, who also heads Space X, made the 100-day pledge via Twitter in March.</p><p>The pledge caught the attention of the twittersphere and fellow billionaire tech guru Australian Mike Cannon-Brookes, who co-founded software company Atlassian, who tweeted, \"Holy s#%t\".</p><p>Later in March, the SA Government announced a $500-million power plan, which included owning and operating a $360-million gas-fired plant and building a 100MW battery before summer.</p><p>Mr Musk, who will visit Jamestown before he leaves Australia, said the battery would be \"nicely arranged white obelisks\".</p><blockquote class=\"quote--pullquote\"><p>\"We're going to make an effort to have it look good, that it will also be a tourism destination.\"</p></blockquote><p class=\"p--heading-1\">SA to lead battery storage technology</p><p>South Australia suffered a statewide blackout last September, while during last summer's heatwave customers were intentionally blacked out because there was not enough power to meet demand.</p><p><a xlink:role=\"\" xlink:show=\"none\" xlink:title=\"\" xlink:type=\"simple\" xlink:href=\"contentbean:8351478\">[timeline: SA power]</a></p><p>Mr Weatherill said the state had led the nation in renewable energy and would now lead the world in battery storage.</p><p>\"It will completely transform the way in which renewable energy is stored, and also stabilise the South Australian network as well as putting downward pressure on prices,\" he said.</p><p>\"It opens up new opportunities for renewable energy in this state, in this nation, and around the world, to be dispatchable [to be used].\"</p><p>Mr Weatherill said the Government had about 91 international bidders for the battery project.</p><p><a xlink:role=\"\" xlink:show=\"embed\" xlink:title=\"\" xlink:type=\"simple\" xlink:href=\"contentbean:8688114\">[photo: wind farm]</a></p><p>\"That was of course assisted by a little bit of Twitter exchange in the few days before we released our plan between Elon Musk and also Mike Cannon-Brookes.\"</p><p>\"This historic agreement does more than bring a sustainable energy giant in Tesla to South Australia, it will also have some significant economic spin-off,\" Mr Weatherill said.</p><p><a xlink:role=\"\" xlink:show=\"none\" xlink:title=\"\" xlink:type=\"simple\" xlink:href=\"contentbean:8344634\">[tweet: Mike Cannon-Brookes]</a></p><p>Neoen deputy chief executive Romain Desrousseaux said the company was proud to work with the Government and Tesla to expand the Hornsdale Wind Farm in Jamestown in the state's Mid North.</p><p>\"At 100MW and 129MWh, the Hornsdale Power Reserve will become not only the largest renewable generator in the state but also home to the largest lithium ion battery in the world, with our company's long-term, direct investment in South Australia growing to almost $1 billion since 2013,\" he said.</p><p>Climate Council chief councillor Professor Tim Flannery said the state was moving away from polluting, expensive and inefficient fossil fuels.</p><p>\"South Australians are witnessing first hand how swiftly this technology can be built and used, with the battery expected to be up and running this summer,\" Professor Flannery said.</p><p>\"South Australia joins the likes of California as a world leader in demonstrating how renewable energy and storage technologies can power our economy cheaply and cleanly.\"</p></div>"
+  }
+}
