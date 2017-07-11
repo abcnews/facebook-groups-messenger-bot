@@ -22,6 +22,7 @@ function assertStory($){
     assert(href.match(/http:\/\/www.abc.net.au\/news\/.*\/\d+/), 'should look like a proper URL');
     assert(!!shortTeaserTitle, 'should have a short teaser title');
     assert(!!shortTeaserText, 'should have a short teaser text');
+    assert(!shortTeaserText.includes('<p>'), 'should not contain <p> tags');
     assert(!!imgSrcProxied, 'should have a proxied image src');
     assert(!!rimgSrc, 'should have a rimage');
     assert(!!title, 'should have a title');
