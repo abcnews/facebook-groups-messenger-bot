@@ -5,17 +5,15 @@
   "main": "app.js",
   "scripts": {
     "start": "node ./bin/www",
-    "test": "mocha --recursive",
-    "test:coverage": "nyc npm test",
-    "test:unit": "mocha --recursive test/middleware test/models test/routes",
-    "test:integration": "mocha --recursive test/integration",
-    "coverage": "istanbul cover _mocha test --  --recursive"
+    "build": "gulp build",
+    "test": "source ./credentials.env && mocha"
   },
   "dependencies": {
     "apicache": "^0.8.4",
     "babel-plugin-es6-promise": "^1.1.1",
     "camo-url": "^0.2.0",
     "checksum": "^0.1.1",
+    "cheerio": "^1.0.0-rc.2",
     "debug": "^2.6.3",
     "es6-promise": "^4.1.0",
     "express": "^4.13.3",
@@ -33,6 +31,7 @@
     "chai": "^3.5.0",
     "chance": "^1.0.6",
     "debug": "^2.6.3",
+    "dotenv": "^4.0.0",
     "gulp": "^3.9.0",
     "gulp-livereload": "^3.8.1",
     "gulp-nodemon": "^2.0.2",
@@ -41,9 +40,9 @@
     "gulp-size": "^2.1.0",
     "gulp-uglify": "^2.1.2",
     "gulp-util": "^3.0.8",
-    "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
-    "nyc": "^10.2.0",
+    "nock": "^9.0.13",
+    "supertest": "^3.0.0",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   }
